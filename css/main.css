@@ -1,0 +1,28 @@
+.global-links {
+  margin: auto;
+}
+
+/* Scroll to top button style */
+.scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  font-size: 50px;
+}
+/* End Scroll to top button style */
+
+footer {
+  background-color: #2f2f2f; /* Black Gray */
+  color: #fff;
+}
+
+/* Temporary fix for navbar responsiveness */
+.navbar-toggler {
+    z-index: 1;
+}
+@media (max-width: 576px) {
+    nav > .container {
+        width: 100%;
+    }
+}
