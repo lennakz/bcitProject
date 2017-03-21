@@ -15,4 +15,6 @@
 ?>
 </ul>
 <br><br>
-<iframe src="https://calendar.google.com/calendar/embed?src=en.canadian%23holiday%40group.v.calendar.google.com&ctz=America/Vancouver" style="border: 0" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
+
+
+<!-- <iframe src="https://calendar.google.com/calendar/embed?src=en.canadian%23holiday%40group.v.calendar.google.com&ctz=America/Vancouver" style="border: 0" width="100%" height="300" frameborder="0" scrolling="no"></iframe> -->
