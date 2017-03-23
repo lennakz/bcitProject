@@ -46,6 +46,10 @@ a.list-group-item.active{
 	float: right!important;
 }
 
+#change-view-nav{
+	transition: background-color 0.4s;
+}
+
 @media (max-width: 767px) {
     #change-view-nav li a{
 	text-align: right;
