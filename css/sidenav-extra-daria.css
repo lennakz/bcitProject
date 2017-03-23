@@ -27,8 +27,12 @@ a.list-group-item.active:hover{
 }
 
 a.list-group-item{
-	background: #eee!important;
+	background: #eee;
 	border: none;	
+}
+
+a.list-group-item.active{
+	background: #337ab7;
 }
 
 /*Top nav bar code - will clean up */
