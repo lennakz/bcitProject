@@ -14,10 +14,6 @@
     <?php require "partials/globalNavigation.php"; ?>
     <!-- End Global Navigation -->
 
-    <!-- Course Navigation -->
-    <?php require "partials/courseNavigation.php"; ?>
-    <!-- End Course Navigation -->
-
     <div class="container-fluid">
       <div class="row">
         <!-- Left space -->
@@ -26,7 +22,7 @@
         <!-- Main part -->
         <div class="col-md-10">
           <!-- Side (local) navigation -->
-          <nav class="col-sm-3">
+          <nav class="col-sm-3 col-xl-2">
             <?php require "partials/sideNavigation.php"; ?>
           </nav>
           <!-- Main contetn -->
@@ -38,6 +34,7 @@
           </div>
           <!-- End Main content -->
         </div>
+        <!-- Right space -->
         <div class="col-md-1"></div>
       </div>
     </div>

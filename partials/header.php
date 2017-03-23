@@ -9,13 +9,13 @@
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Custom CSS -->
-  <link href="/css/main.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
   <!-- jQuery Version 3.1.1 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <!-- Bootstrap js -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!-- Custom js -->
-  <script src="/js/scripts.js" type="text/javascript">
+  <script src="js/scripts.js" type="text/javascript">
 
   </script>
 </head>

@@ -1,14 +1,13 @@
 <h1>Lecture three: CSS techniques</h1>
 <h2>Agenda</h2>
-<div class="">
-  <ul>
-    <li>Quiz #2</li>
-    <li>Stylesheet management</li>
-    <li>Simplifying CSS</li>
-    <li>Advanced selectors</li>
-    <li>Rule specificity</li>
-  </ul>
-</div>
+<ul>
+  <li>Quiz #2</li>
+  <li>Stylesheet management</li>
+  <li>Simplifying CSS</li>
+  <li>Advanced selectors</li>
+  <li>Rule specificity</li>
+</ul>
+<br>
 
 <!-- Main content Tabs -->
 <ul class="nav nav-tabs">
