@@ -59,5 +59,6 @@ a.list-group-item.active{
 
 code{
     color: #2196F3;
-    background-color: #e6eff1;	
+    background-color: #eaf6f9;
+    font-weight: bold;
 }
