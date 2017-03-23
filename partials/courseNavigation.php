@@ -8,7 +8,7 @@
         <li><a href="../about.php">About This Course</a></li>
         <li><a href="../lectures.php">Lectures</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="../meta.html">Meta Webpage</a></li>
+        <li><a href="http://bcitcomp.ca/students/ddimchuk/homepage/project/meta/project-introduction.html">Meta Webpage</a></li>
       </ul>
     </div>
   </div>
