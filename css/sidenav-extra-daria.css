@@ -53,3 +53,11 @@ a.list-group-item.active{
     }
 }
 
+
+
+/* GENERAL */
+
+code{
+    color: #2196F3;
+    background-color: #e6eff1;	
+}
