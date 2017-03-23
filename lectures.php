@@ -14,6 +14,10 @@
     <?php require "partials/globalNavigation.php"; ?>
     <!-- End Global Navigation -->
 
+    <!-- View Navigation -->
+    <?php require "partials/viewNavigation.php"; ?>
+    <!-- End View Navigation -->
+
     <div class="container-fluid">
       <div class="row">
         <!-- Left space -->
