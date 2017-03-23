@@ -44,7 +44,10 @@ a.list-group-item.active{
 
 #change-view-nav{
 	float: right!important;
-	transition: background-color 0.4s;
+}
+
+#change-view-nav li a:hover{
+	transition: background-color 0.4s;	
 }
 
 @media (max-width: 767px) {
