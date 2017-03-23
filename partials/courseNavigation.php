@@ -13,7 +13,7 @@
         -->
         <!--print favicon doesn't seem to work -->
         <li><i class="fa fa-print"></i><a href=#>Print Lecture</a></li>
-        <li><a href=#>Projector Powerpoint</a></li>
+        <li><a href=#>Projector View</a></li>
       </ul>
     </div>
   </div>
