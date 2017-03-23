@@ -44,9 +44,6 @@ a.list-group-item.active{
 
 #change-view-nav{
 	float: right!important;
-}
-
-#change-view-nav{
 	transition: background-color 0.4s;
 }
 
@@ -77,11 +74,9 @@ h1, h2, h3, h4{
 }
 
 
-.global-nav li a:hover{
+#global-nav li a:hover{
 	color: white!important;
     	transition: color 0.5s;	
 }
-
-
 
 
