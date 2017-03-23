@@ -4,7 +4,7 @@
       <a class="navbar-brand" href="/"><img class="img-responsive" src="images/bcit-logo.png" alt="BCIT Logo" width="40"></a>
     </div>
     <div class="global-links">
-      <ul id="global-nav" class="nav navbar-nav">
+      <ul class="nav navbar-nav">
 <<<<<<< HEAD
         <li><a href="about.php">About</a></li>
         <li><a href="lectures.php">Lectures</a></li>
