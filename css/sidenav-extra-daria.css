@@ -1,4 +1,4 @@
-<!-- Side nav bar code - will clean up-->
+/* Side nav bar code - will clean up*/
 
 .nav-stacked>li+li{
 	margin: 0;
@@ -31,7 +31,7 @@ a.list-group-item{
 	border: none;	
 }
 
-<!-- Top nav bar code - will clean up-->
+/*Top nav bar code - will clean up */
 
 .navbar{
 	border: none;
