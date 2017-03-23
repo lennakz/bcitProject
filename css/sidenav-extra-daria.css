@@ -21,12 +21,12 @@
 a.list-group-item:hover{
 	background-color: white!important;
     	color: #555!important;
-	transition: background-color 1s;
+	transition: background-color 0.8s;
 }
 
-.list-group-item.active:hover{
+a.list-group-item.active:hover{
 	background-color: rgb(0, 62, 107);
-	transition: background-color 1s;
+	transition: background-color 0.8s;
 }
 
 
