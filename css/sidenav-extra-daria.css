@@ -53,8 +53,13 @@ a.list-group-item.active{
     }
 }
 
-
-
+@media (min-width: 767px) {
+    .nav-stacked{
+	margin-right: 5%;
+    	margin-left: -10%;
+    }
+}
+    
 /* GENERAL */
 
 code{
@@ -62,3 +67,17 @@ code{
     background-color: #eaf6f9;
     font-weight: bold;
 }
+
+h1, h2, h3, h4{
+	margin: 6% 0;
+}
+
+
+.global-nav li a:hover{
+	color: white!important;
+    	transition: color 0.5s;	
+}
+
+
+
+
