@@ -16,3 +16,14 @@
 	padding: 10px 15px;
 	border-radius: 0;
 }
+
+a.list-group-item:hover{
+	background-color: white!important;
+    	color: #555!important;
+	transition: background-color 1s;
+}
+
+.list-group-item.active:hover{
+	background-color: rgb(0, 62, 107);
+	transition: background-color 1s;
+}
