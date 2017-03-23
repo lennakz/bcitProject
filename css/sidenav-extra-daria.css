@@ -41,3 +41,7 @@ a.list-group-item.active{
 	border: none;
 	border-radius: 0!important;
 }
+
+#change-view-nav{
+	float: right;	
+}
