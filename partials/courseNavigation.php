@@ -9,7 +9,7 @@
         <li><a href="../lectures.php">Lectures</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="http://bcitcomp.ca/students/ddimchuk/homepage/project/meta/project-introduction.html">Meta Webpage</a></li>
-        <i class="fa fa-print" aria-hidden="true">Print Lecture</i>
+        <li><i class="fa fa-print" aria-hidden="true">Print Lecture</i></li>
       </ul>
     </div>
   </div>
