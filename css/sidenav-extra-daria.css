@@ -1,3 +1,4 @@
+<!-- Side nav bar code - will clean up-->
 .list-group-item{
 	background-color: #eee;
 	border: none;	
@@ -26,4 +27,12 @@ a.list-group-item:hover{
 .list-group-item.active:hover{
 	background-color: rgb(0, 62, 107);
 	transition: background-color 1s;
+}
+
+
+<!-- Top nav bar code - will clean up-->
+
+.navbar{
+	border: none;
+	border-radius: 0!important;
 }
