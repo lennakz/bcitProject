@@ -1,0 +1,30 @@
+.list-group-item{
+	background-color: white;
+	border-color: white;	
+}
+
+.list-group-item.active{
+	
+}
+
+.nav.nav-pills.nav-stacked{
+
+}
+
+
+.nav-stacked>li+li{
+	margin: 0;
+}
+
+.nav-pills>li>a{
+	border-radius: 0;
+}
+
+.list-group-item:first-child{
+	border-radius: 0!important;
+}
+
+.nav-stacked>li>a{
+	border: none;
+	padding: 10px 15px;
+}
