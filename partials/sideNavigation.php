@@ -3,13 +3,13 @@
   require "php/data.php";
   foreach ($links as $id => $text)
   {
-    echo "<li class='";
+    echo "<li><a href='?id={$id}' class='list-group-item";
 
     if ($pageId == $id)
-      echo "active";
+      echo " active";
 
-    echo "'><a href='?id={$id}'>";
-    echo zeroPad($id) . " - {$text}";
+    echo "'>";
+    echo "Session " . zeroPad($id) . " - {$text}";
     echo "</li></a>";
   }
 ?>
