@@ -318,7 +318,7 @@
 				<p>Below is the link to an improved bcitcomp1950 website.</p>
 				<br>
 
-				<a href="https://bcit-project.herokuapp.com/">https://bcit-project.herokuapp.com/</a>
+				<a href="https://bcit-project.herokuapp.com/about.php">https://bcit-project.herokuapp.com/</a>
 			</div>
 
 
