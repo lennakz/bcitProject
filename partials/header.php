@@ -18,6 +18,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!-- Custom js -->
   <script src="/js/scripts.js" type="text/javascript">
+  
+  <script src="https://use.fontawesome.com/6eba7f4c7a.js"></script>
 
   </script>
 </head>
