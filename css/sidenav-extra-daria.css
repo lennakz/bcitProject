@@ -74,7 +74,7 @@ h1, h2, h3, h4{
 }
 
 
-#global-nav li a:hover{
+nav.navbar.navbar-inverse li a:hover{
 	color: white!important;
     	transition: color 0.5s;	
 }
