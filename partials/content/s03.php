@@ -1,4 +1,4 @@
-<h1>Lecture three: CSS techniques</h1>
+<h1>Lecture Three: CSS Techniques</h1>
 <h2>Agenda</h2>
 <ul>
   <li>Quiz #2</li>

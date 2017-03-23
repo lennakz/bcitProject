@@ -9,7 +9,7 @@
       echo " active";
 
     echo "'>";
-    echo "Session " . zeroPad($id) . " - {$text}";
+    echo zeroPad($id) . " - {$text}";
     echo "</li></a>";
   }
 ?>

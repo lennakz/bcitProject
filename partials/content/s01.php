@@ -1,4 +1,4 @@
-<h1>lecture one: course introduction</h1>
+<h1>Lecture One: Course Introduction</h1>
 <h2>Agenda</h2>
 <ul>
 	<li>introductions</li>

@@ -36,7 +36,7 @@ a.list-group-item.active:hover{
 
 .nav-stacked li a{
 	background: #ddd;
-	border: none;	
+	border: none;
 }
 
 a.list-group-item.active{
@@ -45,7 +45,7 @@ a.list-group-item.active{
 
 
 #change-view-nav li a:hover, .nav-tabs li a:hover, .nav-stacked li a:hover{
-	transition: background-color 0.4s;	
+	transition: background-color 0.4s;
 }
 
 /*-------------------------------------------------------------------------------------------*/
@@ -53,7 +53,7 @@ a.list-group-item.active{
 
 nav.navbar.navbar-inverse li a:hover{
 	color: white!important;
-    	transition: color 0.5s;	
+    	transition: color 0.5s;
 }
 
 /*-------------------------------------------------------------------------------------------*/
@@ -62,6 +62,9 @@ nav.navbar.navbar-inverse li a:hover{
 	float: right!important;
 }
 
+#change-view-nav i {
+	font-size: 20px;
+}
 
 @media (max-width: 767px) {
     #change-view-nav li a{
