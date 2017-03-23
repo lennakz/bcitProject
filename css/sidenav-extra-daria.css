@@ -46,7 +46,7 @@ a.list-group-item.active{
 	float: right!important;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     #change-view-nav li a{
 	text-align: right;
     	margin-right: 25px;
