@@ -1,8 +1,4 @@
 <!-- Side nav bar code - will clean up-->
-a.list-group-item{
-	background: #eee!important;
-	border: none;	
-}
 
 .nav-stacked>li+li{
 	margin: 0;
@@ -30,6 +26,10 @@ a.list-group-item.active:hover{
 	transition: background-color 0.5s;
 }
 
+a.list-group-item{
+	background: #eee!important;
+	border: none;	
+}
 
 <!-- Top nav bar code - will clean up-->
 
