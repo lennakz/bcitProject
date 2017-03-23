@@ -1,23 +1,10 @@
 .list-group-item{
-	background-color: white;
-	border-color: white;	
+	background-color: #eee;
+	border: none;	
 }
-
-.list-group-item.active{
-	
-}
-
-.nav.nav-pills.nav-stacked{
-
-}
-
 
 .nav-stacked>li+li{
 	margin: 0;
-}
-
-.nav-pills>li>a{
-	border-radius: 0;
 }
 
 .list-group-item:first-child{
@@ -27,4 +14,5 @@
 .nav-stacked>li>a{
 	border: none;
 	padding: 10px 15px;
+	border-radius: 0;
 }
