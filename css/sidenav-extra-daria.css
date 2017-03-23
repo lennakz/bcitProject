@@ -1,5 +1,5 @@
 <!-- Side nav bar code - will clean up-->
-.list-group-item{
+a.list-group-item{
 	background-color: #eee!important;
 	border: none;	
 }
@@ -8,7 +8,7 @@
 	margin: 0;
 }
 
-.list-group-item:first-child{
+a.list-group-item:first-child{
 	border-radius: 0!important;
 }
 
@@ -26,6 +26,7 @@ a.list-group-item:hover{
 
 a.list-group-item.active:hover{
 	background-color: rgb(0, 62, 107);
+	color: white!important;
 	transition: background-color 0.8s;
 }
 
