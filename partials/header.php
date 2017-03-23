@@ -19,7 +19,7 @@
   <!-- Custom js -->
   <script src="/js/scripts.js" type="text/javascript">
   
-  <script src="https://use.fontawesome.com/6eba7f4c7a.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/6eba7f4c7a.css">
 
   </script>
 </head>
