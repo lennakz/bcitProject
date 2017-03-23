@@ -1,254 +1,466 @@
-<!-- Load init file -->
-<?php require "php/init.php"; ?>
 
 <!DOCTYPE html>
-<html lang="en">
 
-<!-- Header -->
-<?php require "partials/header.php"; ?>
-<!-- End Header -->
+<html>
 
-  <body>
+<head>
+	<title>Project Introduction - bcitcomp 1950</title>
+	<meta charset = "utf-8">
 
-    <!-- Global Navigation -->
-    <?php require "partials/globalNavigation.php"; ?>
-    <!-- End Global Navigation -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 
-    <div class="container-fluid">
-      <div class="row">
-        <!-- Left space -->
-        <div class="col-md-3"></div>
-        <!-- Main part -->
-        <div class="col-md-6">
-          <h1>Course Information</h1>
-      		<h2>Place &amp; time</h2>
-      		<p>See <a href="http://www.bcit.ca/study/courses/comp1950">BCIT's COMP 1950 page</a> for the current course room and any applicable holiday schedules.</p>
-      		<h2>Format</h2>
-      		<p>Attendance is mandatory for all sessions of COMP 1950.</p>
-      		<p>Each COMP 1950 session runs for 3 hours, and will include the following:</p>
-      		<dl>
-      			<dt>2.5 hours</dt>
-      			<dd>
-      				<ul>
-      					<li>quiz</li>
-      					<li>lecture</li>
-      					<li>code walkthroughs</li>
-      					<li>in class exercises</li>
-      					<li>15 minute break</li>
-      				</ul>
-      			</dd>
-      			<dt>.5 hours</dt>
-      			<dd>
-      				<ul>
-      					<li>homework assignment</li>
-      					<li>q &amp; a</li>
-      				</ul>
-      			</dd>
-      		</dl>
-      		<h2>Evaluation</h2>
-      		<table width="60%" cellspacing="3" cellpadding="4" border="0">
-      			<tr>
-      			    <td><b>Description</b></td><td>&nbsp;</td><td><b>Due</b></td><td>&nbsp;</td><td><b>Worth</b></td>
-      			</tr>
-      			<tr>
-      			    <td>Homework (9 in total)</td><td> - </td><td>Daily</td><td> - </td><td><b>35%</b></td>
-      			</tr>
-      			<tr>
-      			    <td>Quizzes (8 in total)</td><td> - </td><td>Various</td><td> - </td><td><b>20%</b></td>
-      			</tr>
-      			<tr>
-      			    <td>Group Project</td><td> - </td><td>Session 12</td><td> - </td><td><b>20%</b></td>
-      			</tr>
-      			<tr>
-      			    <td>Final Exam</td><td> - </td><td>Session 12</td><td> - </td><td><b>25%</b></td>
-      			</tr>
-      		</table>
-      		<h2>Requirements</h2>
-      			<p>Completion of <a href="http://www.bcit.ca/study/courses/comp1850">COMP1850</a> or equivalent is required before beginning COMP1950.</p>
-      			<p>Students taking COMP1950 must have solid foundational skills with both HTML and CSS, and some familiarity with Javascript.</p>
-      			<p>Students are expected to understand the use of FTP and  basic file management, be fluent with their operating system, and be proficient with a file compression utility (.zip).</p>
-      			<p>If you have a problem with code you are working on and wish to email your instructor for assistance, be sure to provide the following:</p>
-      			<ul>
-      				<li>a .zip or .rar compressed file as an attachment. include in it all related files and folders (HTML, CSS, and Javascript, images, etc)</li>
-      				<li>in the body of the email describe your question(s) as specifically as possible</li>
-      			</ul>
-      		<h2>Course curriculum overview</h2>
-      		<dl>
-            <dt><strong>session 01</strong></dt>
-              <dd>tools &amp; standards
-                <ul>
-                  <li>development environments</li>
-                  <li>browser tools</li>
-                  <li>standards</li>
-                  <li>semantics</li>
-                  <li>site structure</li>
-                  <li>homework #1 assigned</li>
-                </ul>
-              </dd>
-      			<dt><strong>session 02</strong></dt>
-        			<dd>markup languages
-          			<ul>
-          				<li>quiz #1 - practical, open book</li>
-          				<li>HTML</li>
-          				<li>XHTML</li>
-          				<li>HTML5: new tags, semantics, content models, deprecations, compatibility</li>
-          				<li>CSS review</li>
-          				<li>homework #2 assigned</li>
-          			</ul>
-        			</dd>
-      			<dt><strong>session 03</strong></dt>
-        			<dd>CSS techniques
-          			<ul>
-          				<li>quiz #2 - written, closed book</li>
-          				<li>alternate stylesheets</li>
-          				<li>importing</li>
-          				<li>advanced selectors</li>
-          				<li>the cascade, selector specificity</li>
-          				<li>homework #3 assigned (completed with a partner)</li>
-          			</ul>
-        			</dd>
-      			<dt><strong>session 04</strong></dt>
-        			<dd>CSS techniques, layouts
-          			<ul>
-          				<li>quiz #3 - practical, open book</li>
-          				<li>sprites</li>
-          				<li>css resets</li>
-          				<li>positioning behaviors</li>
-          				<li>layout strategies</li>
-          				<li>homework #4 assigned</li>
-          			</ul>
-        			</dd>
-      			<dt><strong>session 05</strong></dt>
-        			<dd>responsive design
-        				<ul>
-      						<li>quiz #4 - practical, open book</li>
-      						<li>styling for print</li>
-      						<li>media queries</li>
-      						<li>scalable layout strategies</li>
-      						<li>designing for handheld devices</li>
-      						<li>homework #5 assigned (worth twice as much as other homeworks)</li>
-        				</ul>
-        			</dd>
-      			<dt><strong>session 06</strong></dt>
-        			<dd>CSS3
-          			<ul>
-          				<li>quiz #5 - written, closed book</li>
-          				<li>vendor prefixing</li>
-          				<li>graceful degrading</li>
-          				<li>new properties</li>
-          				<li>transitions, animations</li>
-          			</ul>
-        			</dd>
-      			<dt><strong>session 07</strong></dt>
-        			<dd>javascript frameworks
-          			<ul>
-          				<li>javascript fundamentals</li>
-          				<li>jQuery framework basics</li>
-          				<li>detecting user activity</li>
-          				<li>reading page content</li>
-          				<li>altering page content</li>
-          				<li>utilizing &amp; customizing open source jQuery</li>
-          				<li>homework #6 assigned</li>
-          			</ul>
-        			</dd>
-      			<dt><strong>session 08</strong></dt>
-        			<dd>dynamic content
-          			<ul>
-          				<li>quiz #6 - practical, open book</li>
-          				<li>http server setup, basic configuration (Apache)</li>
-          				<li>tokens, server side includes (SSI or PHP)</li>
-          				<li>server management techniques (.htaccess)</li>
-          				<li>homework #7 assigned</li>
-          			</ul>
-        			</dd>
-      			<dt><strong>session 09</strong></dt>
-        			<dd>template development
-          			<ul>
-          				<li>quiz #7 - written, closed book</li>
-          				<li>templating fundamentals</li>
-          				<li>seo strategies</li>
-          				<li>homework #8 assigned</li>
-          			</ul>
-        			</dd>
-      			<dt><strong>session 10</strong></dt>
-        			<dd>methodology
-          			<ul>
-          				<li>quiz #8 - written, closed book</li>
-          				<li>web development cycle</li>
-          				<li>client questionaires</li>
-          				<li>collaborative frameworks</li>
-          				<li>homework #9 assigned</li>
-          				<li>group project assigned</li>
-          			</ul>
-        			</dd>
-          	<dt><strong>session 11</strong></dt>
-			        <dd>group project work</dd>
-          	<dt><strong>session 12</strong></dt>
-      			  <dd>final exam
-          			<ul>
-          				<li>written, open book</li>
-          				<li>practical, open book</li>
-          			</ul>
-      			  </dd>
-      		</dl>
+	<link rel="stylesheet" type="text/css" href="css/html5reset.css">
 
-      	  <h2>texts</h2>
-      		<p>There is no official textbook for comp1950, but if you wish to supplement the online course notes and examples you may find the following optional texts useful:</p>
-      		<img src="web_dev_text.jpg" alt="CSS3 for web designers" width="100px" height="154px" style="float:left;margin-right:8px;" />
-      		<p>Web Development and Design Foundations with HTML5, 7/Edition</p>
-      		<p>By Terry Felke-Morris</p>
-      		<p>ISBN: <code>978-0-1335717-8-3</code></p>
-      		<p><a href="http://www.pearsonhighered.com/educator/product/Web-Development-and-Design-Foundations-with-HTML5-7E/9780133571783.page">Text website</a></p>
-      		<div style="clear:both;"></div>
-      		<br />
-      		<img src="aba-html.png" alt="HTML5 for web designers" width="100px" height="154px" style="float:left;margin-right:8px;" />
-      		<p>HTML5 for web designers</p>
-      		<p>By Jeremy Keith</p>
-      		<p>ISBN: <code>978-0-9844425-0-8</code></p>
-      		<p><a href="http://www.abookapart.com/products/html5-for-web-designers">Text website</a></p>
-      		<div style="clear:both;"></div>
-      		<br />
-      		<img src="aba-css.png" alt="CSS3 for web designers" width="100px" height="154px" style="float:left;margin-right:8px;" />
-      		<p>CSS3 for web designers</p>
-      		<p>By Dan Cederholm</p>
-      		<p>ISBN: <code>978-0-9844425-2-2</code></p>
-      		<p><a href="http://www.abookapart.com/products/css3-for-web-designers">Text website</a></p>
-      		<div style="clear:both;"></div>
+	<style>
 
-      		<h2>Course policies</h2>
-      		<p>All students must understand and comply with the BCIT <a href="http://www.bcit.ca/files/cas/computingparttime/pdf/computing_pts_student_guide.pdf">Student Guide</a>.</p>
-      		<p><b>Assignments:</b> Late assignments will not be accepted for marking. Assignments must be done on an individual basis.</p>
-      		<p><b>Attendance:</b> The attendance policy as outlined in the current BCIT calendar will be enforced.</p>
-      		<p><b>Course Outline Changes:</b> The material specified in the course outline may be changed by the instructor. If changes are required, they will be announced in class.</p>
-      		<p><b>Ethics:</b> BCIT assumes that all students attending the Institute will follow a high standard of ethics. Incidents of cheating or plagiarism may, therefore, result in a grade of zero for the assignment, quiz, test, exam or project for all parties involved and/or expulsion from the course.</p>
-      		<p><b>Illness:</b> A doctor's note is required for any illness causing you to miss assignments quizzes, tests, projects or exams. At the discretion of the instructor, you may complete the work missed or have the work prorated (i.e., an average is given according to your performance throughout the course).</p>
-      		<p><b>Makeup Tests, Exams or Quizzes:</b> There will be no makeup tests, exams or quizzes. If you miss a test exam or quiz, you will receive zero marks. Exceptions <b>may</b> be made for documented medical reasons or extenuating circumstances.</p>
+	html, body, .wrapper{
+		height: 100%;
+		min-height: 100%;
+		margin: 0;
 
-      		<h2>Administrivia</h2>
-      		<p>If you haven't already, be sure to <a href="http://my.bcit.ca/">check out myBCIT</a> and access your free email and calendaring applications. If you're a student and BCIT, your myBCIT account should already be set up.</p>
-      		<p>Also, be sure to read up on the following relevant policies:</p>
-      		<ul>
-        		<li> <a href="http://www.bcit.ca/files/pdf/policies/5002.pdf">5002 BCIT Student Regulations Policy</a> (PDF - 816 KB)</li>
-        		<li> <a href="http://www.bcit.ca/files/pdf/policies/3501.pdf">3501 Responsible Use of Information Technology at BCIT</a> (PDF - 137 KB)</li>
-      		</ul>
-      		<p>By attending this course, every student acknowledges that they have been made aware of these policies and the actions that will be taken if students fail to comply.</p>
+		letter-spacing: 1px;
+		font-size: 20px;
+		font-family: sans-serif;
+	}
 
-        </div>
-        <!-- Right space -->
-        <div class="col-md-3"></div>
-      </div>
-    </div>
+	.parallax{
+		position: relative;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 
-    <!-- Scroll to top button -->
-    <div class="scroll-to-top">
-      <a href="#"><span class="glyphicon glyphicon-upload"></span></a>
-    </div>
-    <!-- End Scroll to top button -->
+		transform: translateZ(0);
+	}
 
-    <!-- Footer -->
-    <?php require "partials/footer.php"; ?>
-    <!-- End Footer -->
 
-  </body>
+	.parallax_1{
+		min-height: 100%;
+		background-image: url('http://bcitcomp.ca/students/ddimchuk/homepage/project/meta/images/bcit-transparent.jpg');
+	}
+
+	.parallax_2{
+		min-height: 50%;
+		background-image: url('http://bcitcomp.ca/students/ddimchuk/homepage/project/meta/images/code-transparent.jpg');
+
+	}
+
+
+	.parallax_3{
+		min-height: 50%;
+		background-image: url('http://bcitcomp.ca/students/ddimchuk/homepage/project/meta/images/connection-transparent.jpg');
+
+	}
+
+	.parallax_4{
+		min-height: 50%;
+		background-image: url('http://bcitcomp.ca/students/ddimchuk/homepage/project/meta/images/contact-img-transparent.jpg');
+	}
+
+	.parallax_5{
+		min-height: 50%;
+		background-image: url('http://bcitcomp.ca/students/ddimchuk/homepage/project/meta/images/project-sample-transparent.jpg');
+	}
+
+	img{
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+
+	#intro-img{
+		max-height: 450px;
+		position: absolute;
+		top: 10%;
+		bottom: 0;
+	}
+
+
+	#sitemap-img{
+	    width: auto;
+		max-width: 95%;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin-top: 30px;
+	}
+
+
+	#menu{
+		display: block;
+		background: white;
+		position: absolute;
+		width: 100%;
+		left: 0px;
+		height: 55px;
+		overflow: hidden;
+	}
+
+	#menu a{
+		padding: 20px 10px;
+		margin-right: 15px;
+		color: rgb(68, 135, 219);
+		font-size: 15px;
+		font-weight: bold;
+		font-family: arial,sans-serif;
+		letter-spacing: 0.5px;
+	}
+
+	#menu a:visited{
+		color: rgb(41, 96, 167);
+	}
+
+
+	#menu a:hover{
+		background-color: #e6e6e6;
+		transition: background-color 0.8s;
+	}
+
+	.caption{
+		font-size: 40px;
+		letter-spacing: 6px;
+		background-color: rgb(0, 62, 107);
+		padding: 15px;
+		text-align: center;
+
+		font-family:'Calibri Light','Gill Sans','Open Sans',Geneva,Helvetica,Arial,sans-serif;
+		color: white;
+	}
+
+	.caption.intro{
+		position: absolute;
+		top: 40%;
+		left: 35%;
+		width: 30%;
+		font-size: 50px;
+	}
+
+	.caption.heading h1{
+		font-size: 50px;
+		padding: 25px;
+		font-family: 'Calibri Light','Gill Sans','Open Sans',Geneva,Helvetica,Arial,sans-serif;
+		font-weight: normal;
+	}
+
+	.section-title h1{
+		font-weight: normal;
+	}
+
+
+	.content{
+		background-color: white;
+		padding-right: 15%;
+		padding-left: 15%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		text-align: center;
+		position: relative;
+		font-family:'Calibri Light','Gill Sans','Open Sans',Geneva,Helvetica,Arial,sans-serif;
+
+	}
+
+
+	footer{
+		position: fixed;
+		height: 45px;
+		width: 100%;
+		text-align: center;
+		font-size: 15px;
+		padding: 15px 0 4px 0;
+		background-color: rgb(0, 62, 107);
+
+		bottom: 0;
+
+	}
+
+	footer a{
+		padding-right: 30px;
+		text-align: center;
+		font-family:'Calibri Light','Gill Sans','Open Sans',Geneva,Helvetica,Arial,sans-serif;
+		color: white;
+	}
+
+
+	.section-title{
+		position: absolute;
+		padding: 20px;
+		width: 100%;
+		left: 0;
+		top: 92%;
+
+		font-size: 40px;
+		letter-spacing: 6px;
+		background-color: rgb(0, 62, 107);
+		text-align: center;
+		font-family:'Calibri Light','Gill Sans','Open Sans',Geneva,Helvetica,Arial,sans-serif;
+		color: white;
+
+	}
+
+
+	table {
+		font-family: 'Calibri Light','Gill Sans','Open Sans',Geneva,Helvetica,Arial,sans-serif;
+		border-collapse: collapse;
+		text-align: center;
+
+		width: auto;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+
+	td, th {
+		border: 1px solid #dddddd;
+		text-align: left;
+		padding: 8px;
+	}
+
+	#improvements-table td, th{
+		text-align: center;
+	}
+
+	#about-table  tr:nth-child(odd), #improvements-table tr:nth-child(odd) {
+		background-color: #f2f2f2;
+	}
+
+	#contact-table * td, th {
+		border: 1px solid white;
+		text-align: center;
+	}
+
+	</style>
+
+
+</head>
+
+
+<body>
+	<div class="wrapper">
+
+		<div class="parallax parallax_1">
+
+			<div class="caption heading">
+				<h1>INTRODUCTION SITE</h1>
+
+				<nav id="menu">
+					<a href=#about-heading>About Us</a>
+					<a href=#project-sample-heading>Project Sample</a>
+					<a href=#improvements-heading>Improvements</a>
+					<a href=#sitemap-heading>Site Map</a>
+					<a href=#contact-heading>Contact</a>
+				</nav>
+			</div>
+
+			<img id="intro-img" draggable="false" src="http://bcitcomp.ca/students/ddimchuk/homepage/project/meta/images/img-test.png" alt="Simple effective design by Mykola, Daria, Ken - BCIT COMP 1950">
+
+			<div id="about-heading" class="section-title"  style="top: 92%;">
+				<h1>ABOUT THE TEAM</h1>
+			</div>
+
+		</div>
+
+
+		<div class="content">
+
+			<div>
+
+				<h2>About the Team</h2>
+				<br><hr>
+
+				<p>Mykola Kotok, Daria Dimchuk, Ken Li</p>
+				<br>
+				<p>Together we created a new modern design for BCIT's 1950 website. <br>Below you will find the distribution of work, and what design element each developer was responsible for.</p>
+				<br><br>
+
+				<table id="about-table">
+				  <tr style="background-color: #cccccc;">
+					<th>Mykola</th>
+					<th>Daria</th>
+					<th>Ken</th>
+				  </tr>
+				  <tr>
+					<td>Bootstrap client website</td>
+					<td>Meta website HTML and CSS</td>
+					<td>Site Map Design</td>
+				  </tr>
+				  <tr>
+					<td>PHP website programming</td>
+					<td>Client website additional CSS</td>
+					<td>ken placeholder</td>
+				  </tr>
+				  <tr>
+					<td>mykola placeholder</td>
+					<td>daria placeholder</td>
+					<td>ken placeholder</td>
+				  </tr>
+				</table>
+
+
+			</div>
+
+
+		</div>
+
+
+		<div class="parallax parallax_5">
+
+			<div id="project-sample-heading" class="section-title" style="top: 84%;">
+				<h1>PROJECT SAMPLE</h1>
+			</div>
+
+		</div>
+
+
+		<div class="content">
+
+			<div>
+
+				<p>Below is the link to an improved bcitcomp1950 website.</p>
+				<br>
+
+				<a href="https://bcit-project.herokuapp.com/">https://bcit-project.herokuapp.com/</a>
+			</div>
+
+
+		</div>
+
+
+		<div class="parallax parallax_2">
+
+
+			<div id="improvements-heading" class="section-title" style="top: 84%;">
+				<h1>IMPROVEMENTS</h1>
+			</div>
+
+		</div>
+
+
+		<div class="content">
+
+			<div>
+				<p>Here we would like to detail the improvements we've made to your website.</p>
+				<br><br>
+				<!--
+				<p>More whitespace allows for easier readability by users and students.</p>
+				<br>
+				<p>More modern design, without dotted borders or background images, gives the website a sleek look.</p>
+				<br>
+				<p>Easier navigation menus break up the content and make it more accessible. <br> Removes the need for endless scrolling with the content tabs. Allows instant access to lecture content, homework, exercises, and code examples.</p>
+
+				-->
+				<table id="improvements-table">
+				  <tr style="background-color: #cccccc;">
+					<th>Improvements</th>
+				  </tr>
+				  <tr>
+					<td>More whitespace allows for easier readability by users and students.</td>
+				  </tr>
+				  <tr>
+					<td>More modern design, without dotted borders or background images, gives the website a sleek look.</td>
+				  </tr>
+				  <tr>
+					<td>Easier navigation menus break up the content and make it more accessible. <br> Removes the need for endless scrolling with the content tabs. Allows instant access to lecture content, homework, exercises, and code examples.</td>
+				  </tr>
+				</table>
+
+
+			</div>
+
+
+		</div>
+
+
+
+		<div class="parallax parallax_3">
+
+			<div id="sitemap-heading" class="section-title" style="top: 84%;">
+				<h1>SITE MAP</h1>
+			</div>
+
+		</div>
+
+
+		<div class="content">
+
+			<div>
+
+				<p>Here, you will find the site map for www.bcitcomp.ca/1950</p>
+				<br>
+				<p>All the links, and connections in the menu are shown below.</p>
+
+				<br>
+
+				<img id = "sitemap-img" src="http://bcitcomp.ca/students/ddimchuk/homepage/project/meta/images/sitemap-sample.jpg" alt="site map for bcitcomp.ca/1950">
+			</div>
+
+
+		</div>
+
+
+		<div class="parallax parallax_4">
+
+			<div id="contact-heading" class="section-title" style="top: 84%;">
+				<h1>CONTACT</h1>
+			</div>
+
+		</div>
+
+
+		<div class="content">
+
+			<div>
+
+				<p>Contact us if you have any questions regarding our design, or would like to see our other projects.</p>
+				<br><br>
+
+				<div>
+					<table id="contact-table">
+					  <tr>
+						<th>Mykola</th>
+						<th>Daria</th>
+						<th>Ken</th>
+					  </tr>
+					  <tr>
+						<td><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mykola.kotok@gmail.com">Email Mykola</a></td>
+						<td><a href="https://mail.google.com/mail/?view=cm&fs=1&to=daria.dimchuk@gmail.com">Email Daria</a></td>
+						<td><a href="https://mail.google.com/mail/?view=cm&fs=1&to=kenli778879@gmail.com">Email Ken</a></td>
+					  </tr>
+					  <tr>
+						<td><a href="https://github.com/lennakz">Mykola Github</a></td>
+						<td><a href="https://github.com/DariaDimchuk">Daria Github</a></td>
+						<td>ken placeholder</td>
+					  </tr>
+
+					</table>
+				</div>
+
+
+
+			</div>
+
+
+		</div>
+
+
+		<div class="parallax parallax_1" style="min-height: 500px;">
+
+		</div>
+
+
+
+
+
+	</div>
+
+	<footer>
+		<a href="https://validator.w3.org/check?uri=http%3A%2F%2Fbcitcomp.ca%2Fstudents%2Fddimchuk%2Fhomepage%2Fproject%2Fmeta%2Fproject-introduction.html&charset=%28detect+automatically%29&doctype=Inline&group=0">HTML validator</a>
+		<a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fbcitcomp.ca%2Fstudents%2Fddimchuk%2Fhomepage%2Fproject%2Fmeta%2Fproject-introduction.html&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en">CSS validator</a>
+	</footer>
+
+
+</body>
+
+
+
 
 </html>
