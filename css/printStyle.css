@@ -1,0 +1,43 @@
+h1:first-child{
+	page-break-before: avoid;
+}
+
+h1 {
+    border-bottom: solid 5px grey;
+	page-break-before: always;
+	margin: 2% 0!important;
+}
+
+.nav, nav, form, .comment-header-txt, hr, .scroll-to-top, footer{
+	display: none!important;
+}
+
+h2, h3, h4 {
+    background: transparent!important;
+    border-bottom: 1px solid grey!important;
+    border-radius: 0!important;
+    padding-left: 0!important;
+	margin: 2% 0!important;
+}
+
+h2 {
+    margin: 1% 0!important;
+	page-break-before: auto;
+}
+
+.col-sm-9, .col-md-10{
+	width: 100%!important;
+}
+
+.col-md-10{
+	padding: 0 3%;
+}
+
+p {
+	page-break-inside: avoid;
+	display: inline;
+}
+
+strong{
+	display: block;
+}
