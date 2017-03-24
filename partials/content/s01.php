@@ -71,7 +71,7 @@
 			      <li>LogonType:  Normal </li>
 			      <li>click: Connect</li>
 					</ol>
-					<img src="/1950/images/filezilla_signalflare.jpg" alt="filezilla FTP login screenshot" width="512px" height="438px" />
+					<img src="http://bcitcomp.ca/students/ddimchuk/homepage/project/meta/images/filezilla_signalflare.jpg" alt="filezilla FTP login screenshot" width="512px" height="438px" />
 			    <p>If you experience connectivity problems, re-check your input, or ask your instructor for assistance.</p>
 
 			    <h1>lecture one: tools &amp; standards</h1>
