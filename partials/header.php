@@ -15,6 +15,8 @@
   <link href="css/main.css" rel="stylesheet" type="text/css">
   <!-- Custom CSS - Daria -->
   <link href="css/daria-style.css" rel="stylesheet" type="text/css">
+  <!--Custom Print Style -->
+  <link href="css/printStyle.css" rel="stylesheet" type="text/css" media="print">
   <!-- jQuery Version 3.1.1 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <!-- Bootstrap js -->
