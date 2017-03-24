@@ -97,10 +97,10 @@ h1 {
 
 .h2, h2 {
     font-size: 25px;
-    background-color: rgba(77, 144, 254, 0.12);
+    background-color: rgba(55, 180, 236, 0.18);
     padding: 12px 10px;
     border: transparent 1px solid;
-    border-bottom: 6px solid rgba(57, 169, 220, 0.46);
+    border-bottom: 6px solid rgba(62, 158, 202, 0.19);
     border-radius: 12px;
 }
 
