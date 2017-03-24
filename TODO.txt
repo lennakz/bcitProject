@@ -3,7 +3,7 @@ CSS/JS:
         with the option to hide them.  
           > So, for global menu, hamburger logo button. 
           > And for Lectures, have a 'Lectures' button - when clicked, will show all lectures.
-
+          > Mobile: FIX : Lecture width and images allow zooming out. Limit size
       - Lectures menu could also be thinner - 60%. Keep it left aligned, and allow that drop down.
 DONE----Actual lecture content is fine on mobile, looks good.
 
