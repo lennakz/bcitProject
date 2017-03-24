@@ -16,13 +16,6 @@ a.list-group-item:first-child{
 	border-radius: 0;
 }
 
-@media (min-width: 767px) {
-    .nav-stacked{
-	margin-right: 5%;
-    	margin-left: -10%;
-    }
-}
-
 /*color + hover effects for side bar*/
 .nav-stacked li a:hover{
 	background-color: white;
@@ -105,5 +98,20 @@ h1, h2, h3, h4{
 	
 	#lecture img, #lecture * img{
 		max-width: 85 vw;	
+	}
+}
+
+
+/* LARGER SCREEN*/
+
+@media (min-width: 767px) {
+    	.nav-stacked{
+		margin-right: 5%;
+    		margin-left: -10%;
+    	}
+	
+	#lecture img, #lecture * img{
+		max-width: 85 vw;
+		max-width: 98%;
 	}
 }
