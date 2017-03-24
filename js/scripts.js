@@ -18,4 +18,23 @@ $(document).ready(function() {
   });
   // End Scroll to top button
 
+  //Stylesheet change
+  $('#print').click(function (){
+   $('link[href="css/main.css"]').attr('href','css/print.css');
+  });
+  $('#projector').click(function (){
+     $('link[href="css/main.css"]').attr('href','css/projector.css');
+  });
+  // End Stylesheet change
+
+  // Reveal.initialize({
+	// 			controls: true,
+	// 			progress: true,
+	// 			history: true,
+	// 			center: true,
+  //
+	// 			theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+	// 			transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+  // });
+
 });

@@ -10,38 +10,44 @@
 
   <body>
 
-    <!-- Global Navigation -->
-    <?php require "partials/globalNavigation.php"; ?>
-    <!-- End Global Navigation -->
+    <header>
 
-    <!-- View Navigation -->
-    <?php require "partials/viewNavigation.php"; ?>
-    <!-- End View Navigation -->
+      <!-- Global Navigation -->
+      <?php require "partials/globalNavigation.php"; ?>
+      <!-- End Global Navigation -->
 
-    <div class="container-fluid">
-      <div class="row">
-        <!-- Left space -->
-        <div class="col-md-1"></div>
+      <!-- View Navigation -->
+      <?php require "partials/viewNavigation.php"; ?>
+      <!-- End View Navigation -->
 
-        <!-- Main part -->
-        <div class="col-md-10">
-          <!-- Side (local) navigation -->
-          <nav class="col-sm-3 col-xl-2">
-            <?php require "partials/sideNavigation.php"; ?>
-          </nav>
-          <!-- Main contetn -->
-          <div class="col-sm-9">
-            <div id="content">
-              <?php require "partials/content/s" . zeroPad($pageId)  . ".php"; ?>
-              <?php require "partials/comments.php"; ?>
+    </header>
+
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Left space -->
+          <div class="col-md-1"></div>
+
+          <!-- Main part -->
+          <div class="col-md-10">
+            <!-- Side (local) navigation -->
+            <nav class="col-sm-3 col-xl-2">
+              <?php require "partials/sideNavigation.php"; ?>
+            </nav>
+            <!-- Main contetn -->
+            <div class="col-sm-9">
+              <div id="content">
+                <?php require "partials/content/s" . zeroPad($pageId)  . ".php"; ?>
+                <?php require "partials/comments.php"; ?>
+              </div>
             </div>
+            <!-- End Main content -->
           </div>
-          <!-- End Main content -->
+          <!-- Right space -->
+          <div class="col-md-1"></div>
         </div>
-        <!-- Right space -->
-        <div class="col-md-1"></div>
       </div>
-    </div>
+    </main>
 
     <!-- Scroll to top button -->
     <div class="scroll-to-top">
