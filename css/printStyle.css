@@ -17,7 +17,7 @@ h2, h3, h4 {
     border-bottom: 1px solid grey!important;
     border-radius: 0!important;
     padding-left: 0!important;
-	margin: 2% 0!important;
+    margin: 2% 0!important;
 }
 
 h2 {
@@ -40,4 +40,18 @@ p {
 
 strong{
 	display: block;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited{
+	text-decoration: underline!important;
+	
+}
+
+a:link:after,
+a:visited:after {
+  content: " (" attr(href) ") ";
+  font-size: 90%;
 }
