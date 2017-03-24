@@ -30,12 +30,20 @@
 
     <form class="navbar-form navbar-right">
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search">
-        <div class="input-group-btn">
-          <button class="btn btn-default" type="submit">
-            <i class="glyphicon glyphicon-search"></i>
-          </button>
-        </div>
+        <!-- Search input -->
+        <script>
+          (function() {
+            var cx = '003121848754179133006:hfuvuhvjmta';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+          })();
+        </script>
+        <gcse:search></gcse:search>
+        <!-- End Search input -->
       </div>
     </form>
 

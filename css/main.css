@@ -2,6 +2,33 @@
   margin: auto;
 }
 
+/* Search input */
+.navbar-form {
+  margin-top: 10px !important;
+}
+.gsc-control-cse {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  padding: 0 !important;
+}
+.gsc-input {
+  width: 150px !important;
+  font-size: 13px !important;
+  background-image: none;
+  text-indent: 0;
+}
+.gsc-input-box {
+  border: none !important;
+  border-radius: 3px !important;
+}
+.gsc-search-button {
+  display: none;
+}
+.gscb_a {
+  margin-top: 5px;
+}
+/* End Search input */
+
 /* Scroll to top button style */
 .scroll-to-top {
   display: none;
