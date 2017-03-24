@@ -1,6 +1,6 @@
 <br>
 <hr>
-<h4>Leave a Comment:</h4>
+<h4 class="comment-header-txt">Leave a Comment:</h4>
 <form role="form">
   <div class="form-group">
     <textarea class="form-control" rows="3" required></textarea>
