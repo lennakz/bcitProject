@@ -52,8 +52,13 @@ a.list-group-item.active{
 /*GLOBAL NAV BAR STYLE*/
 
 nav.navbar.navbar-inverse li a:hover{
-	color: white!important;
+	color: white;
     	transition: color 0.5s;
+}
+
+.dropdown-menu{
+	color: #262626;
+	transition: color 0.5s;
 }
 
 /*-------------------------------------------------------------------------------------------*/
