@@ -99,6 +99,8 @@ h1 {
     font-size: 25px;
     background-color: rgba(77, 144, 254, 0.12);
     padding: 12px 10px;
+    border: transparent 1px solid;
+    border-bottom: 6px solid rgba(57, 169, 220, 0.46);
     border-radius: 12px;
 }
 
