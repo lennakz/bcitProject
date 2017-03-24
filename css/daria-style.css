@@ -107,7 +107,7 @@ h1 {
 }
 
 .form-horizontal .form-group{
-	margin-right: 100px;	
+	margin-right: 100px;
 }
 
 /*-------------------------------------------------------------------------------------------*/
@@ -122,7 +122,7 @@ h1 {
 	#lecture img, #lecture * img{
 	    width: 80vw;
 	    height: auto;
-	    margin: 4% 5%;	
+	    margin: 4% 0 4% 4%;	
 	}
 	
 	p{
@@ -132,6 +132,11 @@ h1 {
 	h2{
 	    margin: 6% 0;
     	    margin-top: 8%;
+	}
+	
+	
+	.form-horizontal .form-group{
+		margin-right: -15px;
 	}
 }
 
