@@ -71,13 +71,6 @@ nav.navbar.navbar-inverse li a:hover{
 	font-size: 20px;
 }
 
-@media (max-width: 767px) {
-    #change-view-nav li a{
-	text-align: right;
-    	margin-right: 25px;
-    }
-}
-
 
 /*-------------------------------------------------------------------------------------------*/
 /* GENERAL */
@@ -95,4 +88,22 @@ h1, h2, h3, h4{
 .navbar{
 	border: none;
 	border-radius: 0!important;
+}
+
+#lecture{
+	word-break: break-word;	
+}
+
+
+/* SMALL SCREEN/MOBILE */
+
+@media (max-width: 767px) {
+    	#change-view-nav li a{
+		text-align: right;
+    		margin-right: 25px;
+    	}
+	
+	#lecture img, #lecture * img{
+		max-width: 85 vw;	
+	}
 }
