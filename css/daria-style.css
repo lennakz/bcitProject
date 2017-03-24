@@ -74,8 +74,8 @@ code{
     font-weight: bold;
 }
 
-h1, h2, h3, h4{
-	margin: 4% 0;
+h2, h3, h4{
+	margin: 2% 0;
 }
 
 .navbar{
@@ -90,6 +90,7 @@ h1, h2, h3, h4{
 
 h1 {
     border-bottom: solid 7px rgb(51, 122, 183);
+	margin: 4% 0;
 }
 
 
@@ -98,7 +99,6 @@ h1 {
     background-color: rgba(77, 144, 254, 0.12);
     padding: 12px 10px;
     border-radius: 12px;
-    margin: 2% 0!important;
 }
 
 /*-------------------------------------------------------------------------------------------*/
@@ -117,7 +117,10 @@ h1 {
 	}
 	
 	p{
-		margin: 20px 0px 10px	
+	    margin: 20px 0px 10px	
+	}
+	h2{
+	    margin: 5% 0;	
 	}
 }
 
