@@ -106,6 +106,10 @@ h1 {
 	border: none;	
 }
 
+.form-horizontal .form-group{
+	margin-right: 40px;	
+}
+
 /*-------------------------------------------------------------------------------------------*/
 /* SMALL SCREEN/MOBILE */
 
