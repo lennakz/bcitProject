@@ -42,7 +42,7 @@
 				</section>
 				<section>
 					<h2>Orientation: Course overview</h2>
-					<p>Learn <a href="/comp1950/courseinfo/">about the course</a> to help you determine if this is the right class for you.</p>
+					<p>Learn <a href="http://bcitcomp.ca/comp1950/courseinfo/">about the course</a> to help you determine if this is the right class for you.</p>
 				  <h2>BCIT network: sharefile</h2>
 					<p>BCIT lab computers are re-imaged each day, meaning you will lose any files you save on the local C: drive of a lab computer.</p>
 					<h4>Choose ONE of the folowing:</h4>
@@ -80,7 +80,7 @@
 			      <li>LogonType:  Normal </li>
 			      <li>click: Connect</li>
 					</ol>
-					<img src="/1950/images/filezilla_signalflare.jpg" alt="filezilla FTP login screenshot" width="512px" height="438px" />
+					<img src="images/filezilla_signalflare.jpg" alt="filezilla FTP login screenshot" width="512px" height="438px" />
 			    <p>If you experience connectivity problems, re-check your input, or ask your instructor for assistance.</p>
 				</section>
 				<section>
@@ -459,8 +459,8 @@
 				</section>
 			  </div>
 
-				<section>
 			  <div id="summary" class="tab-pane fade">
+					<section>
 					<h2>Summary</h2>
 			    <h3>Prerequisites</h3>
 			  	<p>While there is plenty of individual homework to do, there will be several team oriented exercises in this class. Be sure to build pages you are proud of, and be ready and willing to share the them with your colleagues. All COMP1950 students must verify they are capable of connecting to their course webspace via FTP. Students are expected to be fluent with the use of FTP, so be sure to remember your connectivity information.</p>
@@ -485,29 +485,30 @@
 			    	</li>
 			    </ul>
 			  	<p>...and yes, there will be a practical, open book quiz at the start of session #2! (hint: practice using a browser based diagnostic tool like we did during todays exercise)</p>
-				</div>
 				</section>
+				</div>
 
-				<section>
 			  <div id="resources" class="tab-pane fade">
+					<section>
 			    <h2>Standards Resources</h2>
 			    <ul>
 			    	<li>WASP <a href="http://www.webstandards.org/">http://www.webstandards.org/</a></li>
 			    	<li>W3C <a href="http://www.w3c.org/">http://www.w3c.org</a></li>
 			    	<li>W3C Sites <a href="http://www.w3csites.com/">http://www.w3csites.com/</a></li>
 			    </ul>
+					</section>
 			  </div>
-				</section>
 
-				<section>
 			  <div id="homework" class="tab-pane fade">
+					<section>
 			    <h2>Homework</h2>
 			    <ul>
 			    	<li>due to be published to the class server by midnight, the night before the next class</li>
-			    	<li><a href="/_shared_resources_1950/downloads/comp1950homework01.pdf">download the homework</a></li>
+			    	<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950homework01.pdf">download the homework</a></li>
 			    </ul>
+					</section>
 			  </div>
-			</section>
+
 			</div>
 		</div>
 	</div>

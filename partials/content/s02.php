@@ -1,30 +1,49 @@
-<h2>Session 02</h2>
-<p>Navigate throught session 02 materials.</p>
+<div class="reveal">
+	<div class="slides">
+    <section>
+      <h1>Lecture Two: HTML5</h1>
+      <h3>So Sorry! Coming Soon...</h3>
+      <p>For now check our old lecture:</p>
+      <a href="http://bcitcomp.ca/1950/lectures/two/">Lecture Two</a>
+      <br><br>
+    </section>
+    <!-- Main content Tabs -->
+    <section class="remove">
+      <ul class="nav nav-tabs">
+			  <li class="active"><a data-toggle="tab" href="?id=3#lecture">Lecture</a></li>
+			  <li><a data-toggle="tab" href="?id=3#summary">Summary</a></li>
+			  <li><a data-toggle="tab" href="?id=3#resources">Resourses</a></li>
+			  <li><a data-toggle="tab" href="?id=3#homework">Homework</a></li>
+			</ul>
+    </section>
+    <!-- End Main content Tabs -->
 
-<!-- Main content Tabs -->
-<ul class="nav nav-tabs">
-  <li class="active"><a data-toggle="tab" href="#home">Lecture</a></li>
-  <li><a data-toggle="tab" href="#menu1">Excerses</a></li>
-  <li><a data-toggle="tab" href="#menu2">Resourses</a></li>
-  <li><a data-toggle="tab" href="#menu3">Homework</a></li>
-</ul>
-<!-- End Main content Tabs -->
-
-<!-- Main content -->
-<div class="tab-content">
-  <div id="home" class="tab-pane fade in active">
-    <h3>HOME</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <!-- Main content -->
+    <div class="tab-content">
+      <div id="lecture" class="tab-pane fade in active">
+        <section>
+        <h3>Slide 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+      </div>
+      <div id="summary" class="tab-pane fade">
+        <section>
+        <h3>Slide 2</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </section>
+      </div>
+      <div id="resources" class="tab-pane fade">
+        <section>
+        <h3>Slide 3</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+        </section>
+      </div>
+      <div id="homework" class="tab-pane fade">
+        <section>
+        <h3>Slide 4</h3>
+        <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </section>
+      </div>
+    </div>
   </div>
-  <div id="menu1" class="tab-pane fade">
-    <h3>Menu 1</h3>
-    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  </div>
-  <div id="menu2" class="tab-pane fade">
-    <h3>Menu 2</h3>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-  </div>
-  <div id="menu3" class="tab-pane fade">
-    <h3>Menu 3</h3>
-    <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-  </div>
+</div>

@@ -22,26 +22,40 @@ $(document).ready(function() {
   $('#print').click(function (){
    $('link[href="css/main.css"]').attr('href','css/print.css');
   });
+
   $('#projector').click(function (){
     var cnt = $(".tab-content").contents();
     $(".tab-content").replaceWith(cnt);
     var cnt = $("#lecture").contents();
     $("#lecture").replaceWith(cnt);
+    var cnt = $("#summary").contents();
+    $("#summary").replaceWith(cnt);
+    var cnt = $("#resources").contents();
+    $("#resources").replaceWith(cnt);
+    var cnt = $("#homework").contents();
+    $("#homework").replaceWith(cnt);
     $('.remove').remove();
-    $('link[href="css/main.css"]').attr('href','css/projector.css');
-    $('link[href="css/daria-style.css"]').attr('href','css/reveal.min.css');
-    $('head').append('<link rel="stylesheet" href="css/reveal-default-theme.css" id="theme">');
+    $('link[href="css/main.css"]').attr('href','css/reveal.min.css');
+    $('link[href="css/daria-style.css"]').attr('href','css/reveal-default-theme.css');
     $('head').append('<script src="js/reveal.min.js" type="text/javascript"></script>');
+    if (!$('#go-back').length) {
+      $('body').append('<a href="#" class="roll" id="go-back">Back to Lecture</a>');
+    };
+
     Reveal.initialize({
     			controls: true,
     			progress: true,
     			history: true,
     			center: true,
 
-    			theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
     			transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
      });
+     $('#go-back').click(function() {
+       location.reload();
+     });
+
   });
+
   // End Stylesheet change
 
 

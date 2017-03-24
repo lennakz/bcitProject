@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="This is BCIT COMP1950 course web page.">
   <meta name="author" content="bcit comp1950 students: Daria, Ken, Mykola">
+  <meta name="google-site-verification" content="O4A_zyn5JODemCg42jR-5564Q9rqytpGOCEsviiJBh8">
   <title>BCIT | COMP 1950</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/6eba7f4c7a.css">
   <!-- Bootstrap Core CSS -->
