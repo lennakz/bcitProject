@@ -21,7 +21,7 @@
 
         <!-- Main part -->
         <div class="col-md-10">
-          <h1 class="text-center">Contact Teachers</h1>
+          <h1 class="text-center contact-text">Contact Teachers</h1>
           <div class="container">
             <p class="text-center">If you have any question you can contact your teacher using phone/email or you can fill out this form.</p>
             <br><br>
