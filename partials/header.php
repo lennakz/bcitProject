@@ -24,6 +24,6 @@
   <!-- Reveal JS -->
   <!-- <script src="js/reveal.min.js" type="text/javascript"></script> -->
   <!-- Custom js -->
-  <script src="js/scripts.js" type="text/javascript"></script>
+  <script src="js/scripts.js" type="text/javascript" defer></script>
 
 </head>

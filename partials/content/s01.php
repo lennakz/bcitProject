@@ -1,3 +1,5 @@
+<div class="reveal">
+	<div class="slides">
 		<section>
 			<h1>Lecture One: Course Introduction</h1>
 			<h2>Agenda</h2>
@@ -10,18 +12,21 @@
 			<br>
 		</section>
 			<!-- Main content Tabs -->
+		<section class="remove">
 			<ul class="nav nav-tabs">
 			  <li class="active"><a data-toggle="tab" href="?id=3#lecture">Lecture</a></li>
 			  <li><a data-toggle="tab" href="?id=3#summary">Summary</a></li>
 			  <li><a data-toggle="tab" href="?id=3#resources">Resourses</a></li>
 			  <li><a data-toggle="tab" href="?id=3#homework">Homework</a></li>
 			</ul>
+		</section>
 			<!-- End Main content Tabs -->
 
 			<!-- Main content -->
 			<div class="tab-content">
 
 			  <div id="lecture" class="tab-pane fade in active">
+				<section>
 			    <h2>Introductions</h2>
 					<ul>
 						<li> <b>instructors:</b> Jeff Parker (<a href="mailto:jeffrey_parker@bcit.ca">jeffrey_parker@bcit.ca</a>), Lynda Williams (<a href="mailto:lynda_williams@bcit.ca">lynda_williams@bcit.ca</a>)</li>
@@ -34,6 +39,8 @@
 			  			</ul>
 			      </li>
 					</ul>
+				</section>
+				<section>
 					<h2>Orientation: Course overview</h2>
 					<p>Learn <a href="/comp1950/courseinfo/">about the course</a> to help you determine if this is the right class for you.</p>
 				  <h2>BCIT network: sharefile</h2>
@@ -44,7 +51,8 @@
 						<li>Save your work to your personal USB or cloud storage account</li>
 						<li>Use your own laptop in class, and dont use the BCIT lab computers</li>
 					</ul>
-
+				</section>
+				<section>
 			    <h2>Orientation: Web space</h2>
 			    <p>Each student will get personal webspace. This is not a continuation of your COMP1850 site (if you had one).  This site is primarily for you to house your exercises, assignments, group work and more.  Make it a site that is usable and functional.</p>
 					<ul>
@@ -58,7 +66,8 @@
 						</li>
 						<li>Your URL will be: <strong>http://bcitcomp.ca/students/{your_mybcit_email_name}</strong></li>
 					</ul>
-
+				</section>
+				<section>
 					<h2>Connect to your bcitcomp.ca account via FTP</h2>
 					<p>Use Filezilla, or any FTP client to connect to bcitcomp.ca. The bcitcomp.ca server provides you with a space on the internet where you can publish your homework and assignments.</p>
 					<ol>
@@ -71,9 +80,10 @@
 			      <li>LogonType:  Normal </li>
 			      <li>click: Connect</li>
 					</ol>
-					<img src="http://bcitcomp.ca/students/ddimchuk/homepage/project/meta/images/filezilla_signalflare.jpg" alt="filezilla FTP login screenshot" width="512px" height="438px" />
+					<img src="/1950/images/filezilla_signalflare.jpg" alt="filezilla FTP login screenshot" width="512px" height="438px" />
 			    <p>If you experience connectivity problems, re-check your input, or ask your instructor for assistance.</p>
-
+				</section>
+				<section>
 			    <h1>lecture one: tools &amp; standards</h1>
 			    <h2>Tools: Web Development</h2>
 			  	<p>There are a LOT of tools to choose from these days. Desktop and mobile apps, online tools and services, etc. </p>
@@ -81,6 +91,8 @@
 			  	<p>Workflow is defined as the process you take getting from start to completion on a task or series of tasks. For web development, it generally results in a page that has been created or updated by the use some kind of tool.</p>
 			  	<p>There is no perfect platform or workflow, there is only <strong>your</strong> platform and workflow that matters.  Once you can get the job done, you are off to the races, so find a workflow that suits you the best.</p>
 			  	<p>Some of the tools used by web developers...</p>
+				</section>
+				<section>
 			    <h3>Text Editors</h3>
 			  	<ul>
 			  		<li><a href="http://notepad-plus-plus.org/">Notepad++</a> - Text Editor (Win) * installed in BCIT lab computers *</li>
@@ -107,7 +119,8 @@
 			  		<li><a href="http://dropbox.com">Dropbox</a> - File Sharing (Web)</li>
 			  		<li><a href="https://github.com/">GitHub</a> - Collaborative Development (Web/Client)</li>
 			  	</ul>
-
+				</section>
+				<section>
 			    <h2>Tools: Browser-based development</h2>
 			  	<p>Today, most modern browsers have some kind of development environment that can be turned on or triggered via extensions and/or plug-ins.</p>
 			  	<p>There are presently two major development platforms, with a few variations for examining and developing web pages.</p>
@@ -138,7 +151,8 @@
 			      </li>
 			    </ul>
 			  	<p><strong>Remember to test in as many browsers as you can! Useful tools for this are <a href="http://browsershots.org/">BrowserShots</a> (Chrome, Firefox, Safari, Opera) and <a href="http://netrenderer.com/">Netrenderer</a> (For IE)</strong></p>
-
+				</section>
+				<section>
 			    <h2>Tools: Firefox Extensions</h2>
 			    <p>Extensions are a big part of Firefox, especially considering the background the browser has in web development.</p>
 			    <p>In fact, web development even has it's own category dedicated to <a href="https://addons.mozilla.org/en-US/firefox/browse/type:1/cat:4">Web and Developer Tools</a></p>
@@ -162,7 +176,8 @@
 			    	<li>Validate the CSS of this page with the Tools tab (Tools &gt; Validate CSS)</li>
 			    	<li>View the CSS of the page (CSS &gt; View)</li>
 			    </ul>
-
+				</section>
+				<section>
 			    <h2>Browser Based Diagnostic Tools</h2>
 			    <p>As web pages get more complex, it can become difficult figuring out what is going on. For example, CSS rules that override other CSS rules, if spread across several files, can be challenge to make sense of. Having a diagnostic tool to assist in developing will make it easier to examine every detail of web pages. </p>
 			    <ul>
@@ -174,7 +189,8 @@
 			  	<p>Get familiar with using one of these tools. You will be required to use them in the classes ahead.</p>
 			  	<p><strong>NOTE:</strong> changes you make with the tool are <strong>client based</strong>, this does not actually affect the HTML/CSS files</p>
 			  	<p>These tools go beyond outlining, examining and editing into deep troubleshooting of network, javascript and even XHR (XMLHttpRequest).</p>
-
+				</section>
+				<section>
 			    <h2>Exercise: Work with a broswer diagnotic tool</h2>
 			  	<ul>
 			  		<li>open or install one of the browser diagnostic tools</li>
@@ -185,14 +201,16 @@
 			  		<li>add or change some of the HTML</li>
 			  		<li>refresh your browser... and watch all your alterations turn into nothing but sweet memories!</li>
 			  	</ul>
-
+				</section>
+				<section>
 			    <h2>Developer Tools Wrap up</h2>
 			  	<ul>
 			  		<li>Firefox was the first browser to have real tools embedded and, with extensions, it's a real powerhouse now</li>
 			  		<li>The last few years have seen a constant progression of improved tools in other browsers, bringing everything up a significant notch</li>
 			  		<li>Not a bad idea to have a &quot;dev browser&quot; that can be weighted down with tools</li>
 			  	</ul>
-
+				</section>
+				<section>
 			    <h2>Standards</h2>
 			    <h3>What are standards?</h3>
 			    <ul>
@@ -226,7 +244,8 @@
 			    	<li>Non standard code is hard to support</li>
 			    	<li>Re-engineering and/or maintaining poorly coded websites can be very difficult, costly and time consuming</li>
 			    </ul>
-
+				</section>
+				<section>
 			    <h2>Standards: Web</h2>
 			    <h3>ISO: International Organization for Standards ( <a href="http://www.iso.org/">http://www.iso.org</a> )</h3>
 			    <ul>
@@ -236,6 +255,8 @@
 			    	<li>While it started slowly, many companies ignored standards, in favor of their own "proprietary" methods</li>
 			    	<li>Momentum, corporate marketing (companies advertising that their product or method conforms with ISO XXXX), and some government legislation (forcing the adoption of certain standards) led to a larger adoption of standards</li>
 			    </ul>
+				</section>
+				<section>
 			    <h3>W3C: World Wide Web Consortium ( <a href="http://www.w3.org/">http://www.w3.org</a> )</h3>
 			    <ul>
 			    	<li>Web standards are going through the same process that the ISO went through</li>
@@ -246,6 +267,8 @@
 			    	<li>Leading browser makers did not follow, initially</li>
 			    	<li>Designers were 'taking sides' in the browser wars: users were losers</li>
 			    </ul>
+				</section>
+				<section>
 			    <h3>W3C Goals</h3>
 			    <ol>
 			    	<li><strong>Universal Access</strong>: To make the Web accessible to all by promoting technologies that take into account the vast differences in culture, languages, education, ability, material resources, access devices, and physical limitations of users on all continents;</li>
@@ -262,6 +285,8 @@
 			    	<li>Microsoft and AOL followed shortly with adoption of W3C standards (with limitations)</li>
 			    	<li>Large companies started joining the W3C to be seen as part of the Standards game</li>
 			    </ul>
+				</section>
+				<section>
 			    <h3>For Web Developers</h3>
 			    <p>Designing to current W3C specifications means that:</p>
 			    <ul>
@@ -277,7 +302,8 @@
 			      <li>what are the consequences of using a non-standard version?</li>
 			      <li>Include a <a href="http://validator.w3.org/check?uri=referer">referer link</a> on all your COMP1950 pages: <br /><code>&lt;a href="http://validator.w3.org/check?uri=referer"&gt;validate&lt;/a&gt;</code>.</li>
 			    </ul>
-
+				</section>
+				<section>
 			    <h2>Details of Standards-Driven Development</h2>
 			    <h3>Three goals of standards-driven development:</h3>
 			    <ol>
@@ -293,6 +319,8 @@
 			    	<li>Use CSS to develop sites that separate content (HTML) from presentation (CSS)</li>
 			    	<li>Using Semantic Markup to establish content relationships and logical deployment of content</li>
 			    </ul>
+				</section>
+				<section>
 			    <h3>Future Compatibility</h3>
 			    <ul>
 			    	<li>Code is easier to use for future developers</li>
@@ -306,6 +334,8 @@
 			    	<li>CSS based layouts are easier to redesign, superior to HTML table layouts</li>
 			    	<li>Easier to integrate with CMS (Content Management System) tools</li>
 			    </ul>
+				</section>
+				<section>
 			    <h3>Special Needs</h3>
 			    <ul>
 			    	<li>HTML lends itself to assistive readers (low vision, etc)</li>
@@ -323,7 +353,8 @@
 			    	<li>HTML5: utilize the new tags to further increase semantic meaning of our web pages</li>
 			    	<li>The better your HTML elements, classes and IDs, the easier it will be to manipulate them with advanced frameworks such as jQuery</li>
 			    </ul>
-
+				</section>
+				<section>
 			    <h2>Standards: file and folder naming</h2>
 			  	There are a few things that bear remembering:
 			  	<ul>
@@ -336,8 +367,9 @@
 			      </li>
 			      <li>acceptable non-alphanumeric characters: <strong>.  _  -  ~</strong></li>
 			  	  <li>simple default page: <code>index.htm</code>, <code>index.html</code> or <code>index.shtml</code> (or whatever your server default is)</li>
-			   </ul>
-
+			   	</ul>
+				</section>
+				<section>
 			    <h2>Standards: file management</h2>
 			    <ul>
 			    	<li>including an <code>index.html</code> file in every folder on your server will ensure users cannot go snooping around your filesystem. the index.html file can be a blank HTML page if you like, as long as the user does not see a list of files when they request a folder </li>
@@ -349,7 +381,8 @@
 			      </li>
 			    	<li>if there are files/pages on your server no longer being used, be sure to either remove them or locate them in a place where users are not going to accidentally find them</li>
 			    </ul>
-
+				</section>
+				<section>
 			    <h2>Semantic Markup</h2>
 			    <h3>What is Semantic Markup?</h3>
 			    <ul>
@@ -363,6 +396,8 @@
 			    	<li>HTML tables used for semantic value (tabular data), not for layouts</li>
 			    	<li>Key: Separate Content (HTML) from Presentation (CSS)</li>
 			    </ul>
+				</section>
+				<section>
 			    <h3>Building Content Relationships</h3>
 			    <ul>
 			    	<li>Use appropriate tags for headings, content, sub-content, lists</li>
@@ -371,6 +406,8 @@
 			    	<li>Headings are related to following paragraphs</li>
 			    	<li>Citations, quotes, code samples can be contextualized by nearest heading</li>
 			    </ul>
+				</section>
+				<section>
 			    <h3>Logical vs. Physical Styles</h3>
 			    <ul>
 			    	<li>Tend to display identically in browsers, but are fundamentally different</li>
@@ -386,6 +423,8 @@
 			    	<li><code>u</code> - Underline</li>
 			    	</ul></li>
 			    </ul>
+				</section>
+				<section>
 			    <h3>Logical Styling</h3>
 			    <ul>
 			    	<li>Best way to markup content for long-term usage</li>
@@ -405,6 +444,8 @@
 			    	<li><code>del</code> - <del>Deleted text</del></li>
 			    	<li><code>ins</code> - <ins>Inserted text</ins></li></ul></li>
 			    </ul>
+				</section>
+				<section>
 			    <h3>Key Advantages Of Semantic Content</h3>
 			    <ul>
 			    	<li>Content is relational - context can be determined easily</li>
@@ -415,10 +456,12 @@
 			    	<li>Screen reader friendly</li>
 			    	<li>Separates style (CSS) from structure (HTML), making it easier to maintain</li>
 			    </ul>
+				</section>
 			  </div>
 
+				<section>
 			  <div id="summary" class="tab-pane fade">
-			    <h2>Summary</h2>
+					<h2>Summary</h2>
 			    <h3>Prerequisites</h3>
 			  	<p>While there is plenty of individual homework to do, there will be several team oriented exercises in this class. Be sure to build pages you are proud of, and be ready and willing to share the them with your colleagues. All COMP1950 students must verify they are capable of connecting to their course webspace via FTP. Students are expected to be fluent with the use of FTP, so be sure to remember your connectivity information.</p>
 			    <h3>COMP1950 Best Practices</h3>
@@ -442,8 +485,10 @@
 			    	</li>
 			    </ul>
 			  	<p>...and yes, there will be a practical, open book quiz at the start of session #2! (hint: practice using a browser based diagnostic tool like we did during todays exercise)</p>
-			  </div>
+				</div>
+				</section>
 
+				<section>
 			  <div id="resources" class="tab-pane fade">
 			    <h2>Standards Resources</h2>
 			    <ul>
@@ -452,7 +497,9 @@
 			    	<li>W3C Sites <a href="http://www.w3csites.com/">http://www.w3csites.com/</a></li>
 			    </ul>
 			  </div>
+				</section>
 
+				<section>
 			  <div id="homework" class="tab-pane fade">
 			    <h2>Homework</h2>
 			    <ul>
@@ -460,5 +507,7 @@
 			    	<li><a href="/_shared_resources_1950/downloads/comp1950homework01.pdf">download the homework</a></li>
 			    </ul>
 			  </div>
-
+			</section>
 			</div>
+		</div>
+	</div>
