@@ -75,7 +75,8 @@ code{
 }
 
 h2, h3, h4{
-	margin: 2% 0;
+	margin: 3% 0;
+    	margin-top: 5%;
 }
 
 .navbar{
@@ -101,6 +102,10 @@ h1 {
     border-radius: 12px;
 }
 
+.contact-text{
+	border: none;	
+}
+
 /*-------------------------------------------------------------------------------------------*/
 /* SMALL SCREEN/MOBILE */
 
@@ -119,8 +124,10 @@ h1 {
 	p{
 	    margin: 20px 0px 10px	
 	}
+	
 	h2{
-	    margin: 5% 0;	
+	    margin: 6% 0;
+    	    margin-top: 8%;
 	}
 }
 
