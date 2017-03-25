@@ -112,6 +112,17 @@ h1 {
 	margin-right: 100px;
 }
 
+#print-link{
+	margin-right: 0!important;
+}
+
+#projector{
+	padding-right: 8px!important;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
 /*-------------------------------------------------------------------------------------------*/
 /* SMALL SCREEN/MOBILE */
 
