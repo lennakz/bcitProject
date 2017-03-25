@@ -1,10 +1,10 @@
 <div class="reveal">
 	<div class="slides">
     <section>
-      <h1>Lecture Two: HTML5</h1>
+      <h1>Lecture Ten: Methodology</h1>
       <h3>So Sorry! Coming Soon...</h3>
       <p>For now check our old lecture:</p>
-      <a href="http://bcitcomp.ca/1950/lectures/two/">Lecture Two</a>
+      <a href="http://bcitcomp.ca/1950/lectures/ten/">Lecture Ten</a>
       <br><br>
     </section>
     <!-- Main content Tabs -->

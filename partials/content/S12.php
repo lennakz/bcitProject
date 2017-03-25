@@ -1,10 +1,9 @@
 <div class="reveal">
 	<div class="slides">
     <section>
-      <h1>Lecture Two: HTML5</h1>
+      <h1>Final Exam</h1>
       <h3>So Sorry! Coming Soon...</h3>
-      <p>For now check our old lecture:</p>
-      <a href="http://bcitcomp.ca/1950/lectures/two/">Lecture Two</a>
+      <p>Good Luck with Your Final Exam!</p>
       <br><br>
     </section>
     <!-- Main content Tabs -->

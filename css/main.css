@@ -1,3 +1,7 @@
+main {
+  padding-top: 130px;
+}
+
 .global-links {
   margin: auto;
 }
@@ -42,6 +46,24 @@
 footer {
   background-color: #2f2f2f; /* Black Gray */
   color: #fff;
+}
+
+/* Navbar fixed class, turn on after scroll */
+#gloabalNavbar {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+#navbar {
+  position: fixed;
+  top: 16%;;
+  left: 10%;
+  width: 17%;
+}
+/* End Navbar fixed */
+
+.navbar {
+  margin-bottom: 0;
 }
 
 /* Temporary fix for navbar responsiveness */

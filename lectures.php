@@ -16,10 +16,6 @@
       <?php require "partials/globalNavigation.php"; ?>
       <!-- End Global Navigation -->
 
-      <!-- View Navigation -->
-      <?php require "partials/viewNavigation.php"; ?>
-      <!-- End View Navigation -->
-
     </header>
 
     <main>
@@ -31,9 +27,10 @@
           <!-- Main part -->
           <div class="col-md-10">
             <!-- Side (local) navigation -->
-            <nav class="col-sm-3 col-xl-2">
+            <div class="col-sm-3 col-xl-2 remove"></div>
+            <div id="navbar">
               <?php require "partials/sideNavigation.php"; ?>
-            </nav>
+            </div>
             <!-- Main contetn -->
             <div class="col-sm-9">
               <div id="content">

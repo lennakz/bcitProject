@@ -35,6 +35,7 @@ $(document).ready(function() {
     var cnt = $("#homework").contents();
     $("#homework").replaceWith(cnt);
     $('.remove').remove();
+    $('#navbar').remove();
     $('link[href="css/main.css"]').attr('href','css/reveal.min.css');
     $('link[href="css/daria-style.css"]').attr('href','css/reveal-default-theme.css');
     $('head').append('<script src="js/reveal.min.js" type="text/javascript"></script>');
@@ -45,8 +46,12 @@ $(document).ready(function() {
     Reveal.initialize({
     			controls: true,
     			progress: true,
-    			history: true,
+          slideNumber: true,
+    			history: false,
     			center: true,
+          keyboard: true,
+          mouseWheel: true,
+          hideAddressBar: true,
 
     			transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
      });
