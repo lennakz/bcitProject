@@ -57,7 +57,7 @@
   }
   </script>
 
-  <nav class="navbar" style="background-color: #fff">
+  <nav class="navbar" style="background-color: transparent">
     <div class="container-fluid">
       <div class="global-links">
         <ul id="change-view-nav" class="nav navbar-nav">
