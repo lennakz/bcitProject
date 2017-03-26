@@ -82,7 +82,7 @@
 				      <li>click: Connect</li>
 						</ol>
 					</section>
-					<section style="width: 900px">
+					<section>
 						<img src="images/filezilla_signalflare.jpg" alt="filezilla FTP login screenshot"/>
 				    <p>If you experience connectivity problems, re-check your input, or ask your instructor for assistance.</p>
 					</section>
