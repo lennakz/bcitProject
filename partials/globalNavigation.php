@@ -9,7 +9,7 @@
         </button>
         <a class="navbar-brand" href="index.php"><img class="img-responsive" src="images/bcit-logo.png" alt="BCIT Logo" width="40"></a>
       </div>
-      <div class="global-links">
+      <div class="global-links collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li><a href="about.php">About</a></li>
           <li><a href="lectures.php">Lectures</a></li>
@@ -26,16 +26,12 @@
               <li><a href="http://www.bcit.ca/calendar/">Calendar</a></li>
             </ul>
           </li>
-          <li><button id="print-button"  onclick="triggerPrint()"><a id="print-link" href="#"><i class="fa fa-print"></i> Print Lecture</a></button></li>
-          <li><a id="projector" href="#"><i class="fa fa-square-o" aria-hidden="true"></i> Projector View</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <<li><button id="print-button"  onclick="triggerPrint()"><a id="print-link" href="#"><i class="fa fa-print"></i> Print</a></button></li>
+          <li><a id="projector" href="#"><i class="fa fa-square-o" aria-hidden="true"></i> Projector</a></li>
         </ul>
       </div>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-
     </div>
   </nav>
 
