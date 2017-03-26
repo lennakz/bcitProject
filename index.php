@@ -67,12 +67,17 @@
 				  <tr>
 					<td>PHP website programming</td>
 					<td>Client website CSS</td>
-					<td>--</td>
+					<td style="text-align: center;">--</td>
 				  </tr>
 				  <tr>
-					<td>Client website layout design</td>
-					<td>Client website layout design</td>
-					<td>--</td>
+					<td>Menu/nav layout design for web/mobile</td>
+					<td>Layout design / bug fixes</td>
+					<td style="text-align: center;">--</td>
+				  </tr>
+					<tr>
+					<td>Projector View design</td>
+					<td>Print View CSS/button functionality</td>
+					<td style="text-align: center;">--</td>
 				  </tr>
 				</table>
 			</div>
