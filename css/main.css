@@ -6,33 +6,6 @@ main {
   margin: auto;
 }
 
-/* Search input */
-.navbar-form {
-  margin-top: 10px !important;
-}
-.gsc-control-cse {
-  background-color: #000 !important;
-  border-color: #000 !important;
-  padding: 0 !important;
-}
-.gsc-input {
-  width: 150px !important;
-  font-size: 13px !important;
-  background-image: none;
-  text-indent: 0;
-}
-.gsc-input-box {
-  border: none !important;
-  border-radius: 3px !important;
-}
-.gsc-search-button {
-  display: none;
-}
-.gscb_a {
-  margin-top: 5px;
-}
-/* End Search input */
-
 /* Scroll to top button style */
 .scroll-to-top {
   display: none;
@@ -60,18 +33,47 @@ footer {
   left: 10%;
   width: 17%;
 }
+#navbar .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 /* End Navbar fixed */
+
+
 
 .navbar {
   margin-bottom: 0;
+}
+
+.navbar-default {
+  background-color: #fff;
 }
 
 /* Temporary fix for navbar responsiveness */
 .navbar-toggler {
     z-index: 1;
 }
+
+@media (max-width: 767px) {
+  #navbar {
+    position: static;
+    width: 100%;
+    margin: auto;
+  }
+  main {
+    padding-top: 49px;
+  }
+}
+
 @media (max-width: 576px) {
     nav > .container {
         width: 100%;
     }
+}
+@media (min-width: 768px) {
+  #myNavbar1 ul {
+    margin-right: 0;
+  }
 }

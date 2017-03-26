@@ -27,10 +27,12 @@
           <!-- Main part -->
           <div class="col-md-10">
             <!-- Side (local) navigation -->
-            <div class="col-sm-3 col-xl-2 remove"></div>
-            <div id="navbar">
-              <?php require "partials/sideNavigation.php"; ?>
+            <div class="col-sm-3 col-xl-2 remove">
+              <div id="navbar">
+                <?php require "partials/sideNavigation.php"; ?>
+              </div>
             </div>
+
             <!-- Main contetn -->
             <div class="col-sm-9">
               <div id="content">
