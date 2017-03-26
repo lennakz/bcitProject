@@ -180,11 +180,12 @@ h1 {
 	text-decoration: none!important;
 }
 
-#print-button:hover {
-    background: #eee!important;
-    transition: background 0.4s;
+#print-link:hover {
+    color: white!important;
+    transition: color 0.4s;
 }
 
 #print-link{
 	text-decoration: none!important;
+	color: #9d9d9d;
 }
