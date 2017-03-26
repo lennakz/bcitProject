@@ -99,6 +99,9 @@
 				<br>
 
 				<a href="https://bcit-project.herokuapp.com/about.php">https://bcit-project.herokuapp.com/about.php</a>
+				
+				<p>As a sample, we've completed 5 pages: About, Resources, Contact, and Lectures 1 and 3. 
+				<br><br>Additionally, we've included a print style and a projector-view option.</p>
 			</div>
 		</div>
 
@@ -130,6 +133,8 @@
 				  <tr><td>Lectures now have content tabs, which allow users to quickly switch between the lecture content, exercises, homework, a summary, and resources without the need for scrolling.</td></tr>	
 					
 				  <tr><td>Menu includes links to other BCIT sites, allowing students to quickly navigate back to D2L, or the main BCIT website.</td></tr>
+					
+				  <tr><td>Print and Projector buttons allow students to quickly print a lecture, or for instructors to show the lecture in a projector view for the whole class.</td></tr>
 					
 				</table>
 			</div>
