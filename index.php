@@ -66,13 +66,13 @@
 				  </tr>
 				  <tr>
 					<td>PHP website programming</td>
-					<td>Client website additional CSS</td>
-					<td>ken placeholder</td>
+					<td>Client website CSS</td>
+					<td>--</td>
 				  </tr>
 				  <tr>
-					<td>mykola placeholder</td>
-					<td>daria placeholder</td>
-					<td>ken placeholder</td>
+					<td>Client website layout design</td>
+					<td>Client website layout design</td>
+					<td>--</td>
 				  </tr>
 				</table>
 			</div>
@@ -189,7 +189,7 @@
 					  <tr>
 						<td><a href="https://github.com/lennakz">Mykola Github</a></td>
 						<td><a href="https://github.com/DariaDimchuk">Daria Github</a></td>
-						<td>ken placeholder</td>
+						<td><a href="https://github.com/lzklb">Ken Github</a></td>
 					  </tr>
 
 					</table>
