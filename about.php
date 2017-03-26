@@ -194,21 +194,21 @@
 
       	  <h2>texts</h2>
       		<p>There is no official textbook for comp1950, but if you wish to supplement the online course notes and examples you may find the following optional texts useful:</p>
-      		<img src="web_dev_text.jpg" alt="CSS3 for web designers" width="100px" height="154px" style="float:left;margin-right:8px;" />
+      		<img src="/images/web_dev_text.jpg" alt="CSS3 for web designers" width="100px" height="154px" style="float:left;margin-right:8px;" />
       		<p>Web Development and Design Foundations with HTML5, 7/Edition</p>
       		<p>By Terry Felke-Morris</p>
       		<p>ISBN: <code>978-0-1335717-8-3</code></p>
       		<p><a href="http://www.pearsonhighered.com/educator/product/Web-Development-and-Design-Foundations-with-HTML5-7E/9780133571783.page">Text website</a></p>
       		<div style="clear:both;"></div>
       		<br />
-      		<img src="aba-html.png" alt="HTML5 for web designers" width="100px" height="154px" style="float:left;margin-right:8px;" />
+      		<img src="/images/aba-html.png" alt="HTML5 for web designers" width="100px" height="154px" style="float:left;margin-right:8px;" />
       		<p>HTML5 for web designers</p>
       		<p>By Jeremy Keith</p>
       		<p>ISBN: <code>978-0-9844425-0-8</code></p>
       		<p><a href="http://www.abookapart.com/products/html5-for-web-designers">Text website</a></p>
       		<div style="clear:both;"></div>
       		<br />
-      		<img src="aba-css.png" alt="CSS3 for web designers" width="100px" height="154px" style="float:left;margin-right:8px;" />
+      		<img src="/images/aba-css.png" alt="CSS3 for web designers" width="100px" height="154px" style="float:left;margin-right:8px;" />
       		<p>CSS3 for web designers</p>
       		<p>By Dan Cederholm</p>
       		<p>ISBN: <code>978-0-9844425-2-2</code></p>
