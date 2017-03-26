@@ -41,8 +41,7 @@ a.list-group-item.active{
 	background: #337ab7;
 }
 
-
-#change-view-nav li a:hover, .nav-tabs li a:hover, .nav-stacked li a:hover{
+.nav-tabs li a:hover, .nav-stacked li a:hover{
 	transition: background-color 0.4s;
 }
 
@@ -69,6 +68,35 @@ nav.navbar.navbar-inverse li a:hover{
 	font-size: 20px;
 }
 
+#print-link{
+	margin-right: 0!important;
+}
+
+#projector{
+	padding-right: 8px!important;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+#print-button{
+    border: none;
+    background: transparent;
+    padding: 0px;
+    margin-top: 15px;
+    text-decoration: none!important;
+}
+
+#print-link:hover {
+    color: white!important;
+    transition: color 0.4s;
+}
+
+#print-link{
+	text-decoration: none!important;
+	color: #9d9d9d;
+	padding: 15px;
+}
 
 /*-------------------------------------------------------------------------------------------*/
 /* GENERAL */
@@ -117,16 +145,6 @@ h1 {
 	margin-right: 100px;
 }
 
-#print-link{
-	margin-right: 0!important;
-}
-
-#projector{
-	padding-right: 8px!important;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
 
 /*-------------------------------------------------------------------------------------------*/
 /* SMALL SCREEN/MOBILE */
@@ -165,11 +183,6 @@ h1 {
 	}
 }
 
-
-@media (max-width: 400px)
-.nav-tabs li a {
-    padding: 10px 2px!important;
-}
 /*-------------------------------------------------------------------------------------------*/
 /* LARGER SCREEN*/
 
@@ -186,24 +199,4 @@ h1 {
 }
 
 
-/*-------------------------------------------------------------------------------------------*/
-/*PRINT BUTTON*/
-
-#print-button{
-    border: none;
-    background: transparent;
-    padding: 0px;
-    margin-top: 15px;
-    text-decoration: none!important;
-}
-
-#print-link:hover {
-    color: white!important;
-    transition: color 0.4s;
-}
-
-#print-link{
-	text-decoration: none!important;
-	color: #9d9d9d;
-	padding: 15px;
-}
+/*------------------------------------------END------------------------------------------*/
