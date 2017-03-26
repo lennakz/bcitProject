@@ -203,10 +203,6 @@ html, body, .wrapper{
 		padding: 15px 8px;
 	}
 
-	#improvements-table td, th{
-		text-align: center;
-	}
-
 	#about-table  tr:nth-child(odd), #improvements-table tr:nth-child(odd) {
 		background-color: #f2f2f2;
 	}
