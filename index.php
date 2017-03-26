@@ -70,7 +70,7 @@
 					<td style="text-align: center;">--</td>
 				  </tr>
 				  <tr>
-					<td>Menu/nav layout design for web/mobile</td>
+					<td>Menu design for web/mobile</td>
 					<td>Layout design / bug fixes</td>
 					<td style="text-align: center;">--</td>
 				  </tr>
