@@ -1,5 +1,10 @@
 /* SIDE NAV STYLE*/
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border: none;	
+}
+
+
 /*Removes space between list items*/
 .nav-stacked>li+li{
 	margin: 0;
