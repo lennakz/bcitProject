@@ -14,7 +14,7 @@
     <?php require "partials/globalNavigation.php"; ?>
     <!-- End Global Navigation -->
 
-    <div class="container-fluid" style="padding-top: 40px">
+    <div class="container-fluid" style="padding-top: 90px">
       <div class="row">
         <!-- Left space -->
         <div class="col-md-3"></div>
