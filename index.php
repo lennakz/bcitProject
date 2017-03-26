@@ -67,7 +67,7 @@
 				  <tr>
 					<td>PHP website programming</td>
 					<td>Client website CSS</td>
-					<td style="text-align: center;">--</td>
+					<td>JavaScript / JQuery functionality</td>
 				  </tr>
 				  <tr>
 					<td>Menu design for web/mobile</td>
@@ -147,7 +147,6 @@
 			<div id="sitemap-heading" class="section-title" style="top: 84%;">
 				<h1>SITE MAP</h1>
 			</div>
-
 		</div>
 
 
@@ -161,9 +160,8 @@
 
 				<br>
 
-				<img id = "sitemap-img" src="http://bcitcomp.ca/students/ddimchuk/homepage/project/meta/images/sitemap-sample.jpg" alt="site map for bcitcomp.ca/1950">
+				<img id="sitemap-img" src="http://bcitcomp.ca/students/ddimchuk/homepage/project/meta/images/SiteMap-bcitcomp1950.jpg" alt="site map for bcitcomp.ca/1950">
 			</div>
-
 
 		</div>
 
@@ -173,12 +171,10 @@
 			<div id="contact-heading" class="section-title" style="top: 84%;">
 				<h1>CONTACT</h1>
 			</div>
-
 		</div>
 
 
 		<div class="content">
-
 			<div>
 
 				<p>Contact us if you have any questions regarding our design, or would like to see our other projects.</p>
@@ -205,11 +201,7 @@
 					</table>
 				</div>
 
-
-
 			</div>
-
-
 		</div>
 
 
