@@ -100,7 +100,7 @@
 
 				<a href="https://bcit-project.herokuapp.com/about.php">https://bcit-project.herokuapp.com/about.php</a>
 				
-				<p>As a sample, we've completed 5 pages: About, Resources, Contact, and Lectures 1 and 3. 
+				<br><br><p>As a sample, we've completed 5 pages: About, Resources, Contact, and Lectures 1 and 3. 
 				<br><br>Additionally, we've included a print style and a projector-view option.</p>
 			</div>
 		</div>
