@@ -8,7 +8,7 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="index.php"><img class="img-responsive" src="http://bcitcomp.ca/students/ddimchuk/homepage/project/img/bcitcomp1950-text.png" 
-                                                      alt="BCITCOMP 1950" width="auto" height="20px"></a>
+                                                      alt="BCITCOMP 1950" width="120px"></a>
       </div>
       <div class="global-links collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
