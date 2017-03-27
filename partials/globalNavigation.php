@@ -14,6 +14,7 @@
         <ul class="nav navbar-nav">
           <li><a href="about.php">About</a></li>
           <li><a href="lectures.php">Lectures</a></li>
+          <li><a href="exercises.php">Exercises</a></li>
           <li><a href="resources.php">Resources</a></li>
           <li><a href="contact.php">Contact</a></li>
           <li class="dropdown">
