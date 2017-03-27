@@ -146,6 +146,13 @@ h1 {
 }
 
 
+#better_box_model {
+    padding: 5px 10px;
+    background: #690;
+    width: 175px;
+    color: #fff;
+}
+
 /*-------------------------------------------------------------------------------------------*/
 /* SMALL SCREEN/MOBILE */
 
