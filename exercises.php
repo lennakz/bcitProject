@@ -169,7 +169,7 @@
           
           
           <br>
-          <h2>Lecture 5 - </h2>
+          <h2>Lecture 5 - Responsive CSS</h2>
           <h3>Exercise 1 - Print Styles Exercise</h3>
           <ul>
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/styling_for_print_exercise.zip">Download the exercise starting files</a></li>
@@ -236,7 +236,7 @@
           
           
           <br>
-          <h2>Lecture 6 - </h2>
+          <h2>Lecture 6 - CSS3</h2>
           <h3>Exercise 1 - Better Box Model</h3>
           	<ul>
               <li>Experiment with the new box model properties using your preferred web browser diagnostic tool (such as Firefox's Firebug)</li>
@@ -320,18 +320,35 @@
           
           
           
-          <br>
-          <h2>Lecture 7 - </h2>
-          <h3>Exercise 1 - <h3>
+        <br>
+        <h2>Lecture 7 - JavaScript Frameworks</h2>
+        <h3>Exercise 1 - </h3>
+        <h3>Exercise 2 - </h3>
+	<h3>Exercise 3 - </h3>
+	<h3>Homework</h3>
+	
+               
+        <br>
+        <h2>Lecture 8 - Dynamic Content</h2>
+        <h3>Exercise 1 - </h3>
+        <h3>Exercise 2 - </h3>
+	<h3>Exercise 3 - </h3>
+	<h3>Homework</h3>
         
-        
-        
-        
-        
-        
-        
-        
-          
+		
+        <br>
+        <h2>Lecture 9 - Templating, SEO</h2>
+        <h3>Exercise 1 - </h3>
+        <h3>Exercise 2 - </h3>
+	<h3>Exercise 3 - </h3>
+	<h3>Homework</h3>
+	
+	
+	<br>
+        <h2>Lecture 10 - Methodology</h2>
+	<h3>Homework</h3>
+	
+	
         </div>
         <!-- Right space -->
         <div class="col-md-3"></div>
