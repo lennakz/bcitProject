@@ -88,7 +88,7 @@
           <br>
           <br>
           <h2>Lecture 3 - CSS Techniques</h2>
-          <h3>Exercise 1 - Apply an Alternate Stylesheet<h3>
+          <h3>Exercise 1 - Apply an Alternate Stylesheet</h3>
           <ul>
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/alternate_stylesheets.zip">Download the alternate stylesheet starting files</a></li>
             <li>Make a copy of one of the current stylesheets, rename it, and change some of the styles</li>
@@ -173,7 +173,7 @@
           
           <br>
           <h2>Lecture 5 - </h2>
-          <h3>Exercise 1 - Print Styles Exercise<h3>
+          <h3>Exercise 1 - Print Styles Exercise</h3>
           <ul>
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/styling_for_print_exercise.zip">Download the exercise starting files</a></li>
             <li>Apply a printer friendly CSS stylesheet using <code>media="print"</code> in the link tag</li>
@@ -240,7 +240,7 @@
           
           <br>
           <h2>Lecture 6 - </h2>
-          <h3>Exercise 1 - Better Box Model<h3>
+          <h3>Exercise 1 - Better Box Model</h3>
           	<ul>
               <li>Experiment with the new box model properties using your preferred web browser diagnostic tool (such as Firefox's Firebug)</li>
               <li>The box below is <code>id="better_box_model"</code></li>
