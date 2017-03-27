@@ -153,6 +153,22 @@ h1 {
     color: #fff;
 }
 
+#transition_image {
+    position: relative;
+    margin-right: 30px;
+    float: left;
+}
+
+#image_top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#image_botton, #image_top{
+	display: block;	
+}
+
 /*-------------------------------------------------------------------------------------------*/
 /* SMALL SCREEN/MOBILE */
 
