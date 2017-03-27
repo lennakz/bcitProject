@@ -34,7 +34,7 @@
 				</nav>
 			</div>
 
-			<img id="intro-img" draggable="false" src="http://bcitcomp.ca/students/ddimchuk/homepage/project/meta/images/img-test.png" alt="Simple effective design by Mykola, Daria, Ken - BCIT COMP 1950">
+			<img id="intro-img" draggable="false" src="http://bcitcomp.ca/students/ddimchuk/homepage/project/meta/images/meta-img.png" alt="Simple effective design by Mykola, Daria, Ken - BCIT COMP 1950">
 
 			<div id="about-heading" class="section-title"  style="top: 92%;">
 				<h1>ABOUT THE TEAM</h1>
