@@ -21,14 +21,11 @@
         <!-- Main part -->
         <div class="col-md-6">
           <h1>Exercises</h1>
-      		<h2>Download Exercises for All Lectures</h2>
-      		<p><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/transitions_exercise_solution.zip">Download all exercises</a></p>
-      		<h1>Download by Lecture</h1>
+      	<h2>Download Exercises for All Lectures</h2>
+      	<p><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/transitions_exercise_solution.zip">Download all exercises</a></p>
+      	<h1>Download by Lecture</h1>
           
           
-          
-          <br>
-          <br>
           <h2>Lecture 2 - HTML5</h2>
           <h3>HTML5 Exercise 2</h3>
           
