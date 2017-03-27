@@ -27,7 +27,7 @@
           
           
           <h2>Lecture 2 - HTML5</h2>
-          <h3>HTML5 Exercise 2</h3>
+          <h3>HTML5 Exercise 1</h3>
           
           <p>Thinking about the semantic tags that are available in HTML5, construct a simple page that takes advantage of some of these tags.</p>
           <p>We will use the theme of craft beer. Create the name of your own brewery and find <a href="https://www.google.com/search?site=&amp;tbm=isch&amp;tbm=isch&amp;q=craft+beer">
@@ -70,7 +70,7 @@
           sample solution</a>.</p>
           
           
-          <h4>HTML5 Exercise 2</h4>
+          <h3>HTML5 Exercise 2</h3>
           <p>Experiment with new HTML5 form features.</p>
           <p><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise02.zip">Download and unpack the exercise files</a>  (.zip).  
           Add several of the new HTML5 inputs to the form. Test the results in every browser you have available. Which features seem to be well supported? Which ones are poorly supported? 
