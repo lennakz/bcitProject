@@ -322,32 +322,211 @@
           
         <br>
         <h2>Lecture 7 - JavaScript Frameworks</h2>
-        <h3>Exercise 1 - </h3>
-        <h3>Exercise 2 - </h3>
-	<h3>Exercise 3 - </h3>
-	<h3>Homework</h3>
+        <h3>Exercise 1 - Run a Simple JQuery Script</h3>
+		<ol>
+		  <li>Include the jQuery library codebase using the <code>&lt;script src=""&gt;&lt;/script&gt;</code> tag in the <code>&lt;head&gt;</code> section of an HTML page. Load either a local copy obtained from the <a href="http://docs.jquery.com/Downloading_jQuery" title="Download from jQuery">jQuery downloads page</a>, or link to a copy on a Content Delivery Network (CDN).</li>
+		  <li>Add an additional <code>&lt;script&gt;&lt;/script&gt;</code> tag to the <code>&lt;head&gt;</code> section of the document, and place the following code inside:
+		<pre><code> $(document).ready(function(){
+		   //your javascript code
+		 });</code></pre></li>
+		  <li>Alternatively, you can omit the <code>(document).ready</code> section if all the jQuery code is located at the bottom of the HTML page, just before the <code>body</code> tag closes</li>
+		  <li>Instead of the comment <code>//your javascript code</code>, write javascript instructions, such as <code>alert("Hello World!");</code></li>
+		  <li>Test the page</li>
+		</ol>
+		
+		
+        <h3>Exercise 2 - Use an Event to Trigger a Message</h3>
+		<p>Try creating a click event for div tags by adding the following code to an HTML page:</p>
+		<pre><code>$(document).ready(function(){
+			$("div").click(function(event){
+				alert("Hello World");
+			});
+		 });</code></pre>
+	<ul>
+		<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session07_exercise02.zip">Download the starting files</a> for exercise 2</li>
+		<li><strong>Challenge A</strong>: Implement the code above for a "div" click event, then test the results in a browser</li>
+		<li><strong>Challenge B</strong>: Add an id or class selector to an element in your HTML</li>
+		<li>Change the jQuery selector "div" to match your selector, eg "#my_unique_id"</li>
+		<li><strong>Challenge C</strong>: Change the event from "click" to one that will only trigger when the user mouses over top of the element. Use this <a href="http://api.jquery.com/category/events/">list of jQuery events</a></li>
+		<li>Note there is more than one event that might work in this case. are some better than others?</li>
+		<li>Add a new tag of your choosing. Assign it a new class or id. Add another jQuery click event to make an alert popup if the user clicks this tag.</li>
+		<li><strong>Bonus Challenge D</strong>: investigate the <a href="http://api.jquery.com/event.pageX/">event.pageX</a> and <a href="http://api.jquery.com/event.pageY/">event.PageY</a> events. Use them to change the alert message so that it reports exactly where the mouse was clicked</li>
+		<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session07_exercise02_solution.zip">Download a sample solution</a></li>
+	</ul>	
+		
+	<h3>Exercise 3 - Alter HTML using JQuery</h3>
+		<p>Download a copy of this <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session07_exercise03.zip">jQuery exercise file</a>. Use this file as a test bed for experimenting with the jQuery techniques described throughout session #7. 
+	</p><p>Don't spoil the fun before you try it yourself, but you can <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session07_exercise03_solution.zip">download a completed sample solution</a> of the exercise file. </p>  
 	
-               
+	<h3>Exercise 4 - Create a 'sticky' nav bar when the user scrolls away from the nav</h3>
+	<p>Try creating a click event for div tags by adding the following code to an HTML page:</p>
+	<ul>
+		<li>Several interesting interface techniques may involve scroll detection. In this exercise, you can examine an example of how scroll detection works, and use it to create a navigation bar that will always be visible, even as the user scrolls down the page</li>
+		<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/sticky_nav_exercise.zip">Download the exercise starting files</a></li>
+		<li>Examine the behavior and source code of the starting files</li>
+		<li>Exercise challenges are detailed in the .html and .js files</li>		
+		<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/sticky_nav_exercise_solution.zip">Download a sample solution</a></li>
+	</ul>	
+	
+	<h3>Exercise 5 - Enable menu vector icon functionality</h3>
+	<ul>
+		<li>The menu vector icon (eg: <img src="http://bcitcomp.ca/_shared_resources_1950/images/menu.png" alt="menu vector icon" style="width:15px;display:inline;">) is commonly used to 'hide' the full display of a menu. Users can click the icon to toggle the visibility of the menu options.</li>
+		<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/jquery_menu_exercise.zip">Download the exercise starting files</a></li>
+		<li>Load the jQuery library files using the <code>script</code> tag</li>
+		<li>Add another <code>script</code> tag to link to a <code>.js</code> file that you create</li>		
+		<li>Contain all your jQuery code within <code>$(document).ready(function(){ });</code></li>		
+		<li>Add a click event to the <code>#nav_icon</code> so that clicking it toggles the visibility of the <code>#nav</code></li>
+		<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/jquery_menu_exercise_solution.zip">Download a sample solution</a> and examine the code for details</li>
+	</ul>
+		
+	<h3>Homework</h3>
+        <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework06.pdf">Download the homework</a>      
+	
+	
         <br>
         <h2>Lecture 8 - Dynamic Content</h2>
-        <h3>Exercise 1 - </h3>
-        <h3>Exercise 2 - </h3>
-	<h3>Exercise 3 - </h3>
-	<h3>Homework</h3>
-        
+        <h3>Exercise 1 - Install and Run and HTTP Server</h3>
+	<p>Install a web server environment on your client machine.</p>
+	<ol>
+		<li>Download an open source server package for your operating system:
+		<ul>
+			<li><a href="http://www.wampserver.com/en/">WAMP</a> - windows (<a href="http://bcitcomp.ca/_shared_resources_1950/downloads/wampserver3.0.6_x64_apache2.4.23_mysql5.7.14_php5.6.25-7.0.10.exe">alternative WAMP download link</a><a>)</a></li><a>
+			</a><li><a></a><a href="http://www.mamp.info/en/">MAMP</a> - macintosh</li>
+		</ul>
+		</li>	
+		<li><strong>Important:</strong> if using BCIT lab computers, install the server to the C: drive</li>
+		<li>Install the downloaded package with default settings</li>
+		<li>Start the HTTP server</li>
+		<li>Visit <code>http://localhost</code> in your web browser. Mac users visit visit <code>http://localhost:8888</code></li>
+	</ol>
+	
+	
+        <h3>Exercise 2 - Server Root based Pathing</h3>
+	<p>Server root based paths can allow more portable code. Paths that begin with a <code>/</code> (forward slash) will begin at the server root. For example, if your server root folder is <code>www</code> and is located at <code>C:/wamp/www</code>, then the following address <code>/css/styles.css</code> will be mapped to <code>C:/wamp/www/css/styles.css</code></p>
+	<ol>
+		<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/apache_server_exercise.zip">Download the exercise starting files</a></li>
+		<li>Uncompress the contents of the exercise download</li>
+		<li>Place all files and folders in your server root (<code>css</code>, <code>images</code> and <code>errors</code> folders)</li>
+		<li>Update the HTML file <code>sample_file.html</code> wherever it references images or css files: Currently relative paths are used. Change these to server-based relative paths</li>
+		<li>Request this page on localhost to confirm the stylesheet and images are loading</li>
+		<li>Make a copy of the HTML page and place it in a subfolder created by you. Test this page via localhost to demonstrate the increased portability of your HTML code</li>
+	</ol>
+	
+	
+	<h3>Exercise 3 - Use .htaccess</h3>
+	
+	<p>Edit and apply and .htaccess file to customize server behavior.</p>
+	<ul>
+		<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/htaccess.zip">Download this .htaccess file.</a> Note it is a .zip file, so you will need to extract it before use. If using a Mac, the .htaccess file may be hidden. If so, follow these <a href="http://www.turnwall.com/articles/show-hidden-files-in-mac-os-x/">Mac instructions for enabling the editing of 'hidden' files</a></li>
+		<li>Open the .htaccess in your text editor.</li>
+		<li>Use <code>.htaccess</code> to assign default error message pages. Open the included <code>.htaccess</code> file, and add the following directives:
+		<ul>
+			<li><code>ErrorDocument 404 /errors/file_not_found.html</code></li>
+			<li>Trigger an error by requesting over <code>localhost</code> a page that doesn't exist. Does <code>file_not_found.html</code> display and use the warning image? If not, examine <code>file_not_found.html</code>s paths, and ensure they match the file locations on your server</li>
+		</ul></li>
+	</ul>
+	
+	<h3>Exercise 4 - Run an Example SSI</h3>
+        <ul>
+		<li>Download a <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/htaccess.zip">.zip file containing an .htaccess</a> and, after uncompressing it, place the <code>.htaccess</code> file in your server root.</li>
+		<li>Create an HTML page using the extension <code>.shtml</code></li>
+		<li>Add the following lines in the body of the page:<br><code>&lt;!--#echo var="DOCUMENT_NAME"--&gt;</code> </li>
+		<li>Place your <code>.shtml</code> file in your server root and test it using localhost. The page should display it's file name. If not, see your instructor. If so, proceed to the next step...</li>
+		<li>Make a copy of your <code>.shtml</code> page, but this time change the extension to the more standard <code>.html</code> or <code>.htm</code>. Test this new page via localhost. The SSI will not run, since the server only parses file extensions defined by the developer.</li>
+		<li>Update the <code>.htaccess</code> file by adding more extensions to it's SSI parsing. For example: 
+		<h4>Before</h4><pre><code>AddType text/html .shtml 
+		AddHandler server-parsed .shtml 
+		Options Indexes FollowSymLinks Includes</code></pre><h4>After</h4><pre><code>#note the space delimited list of file extensions added...
+		AddType text/html .shtml .html .htm
+		AddHandler server-parsed .shtml .html .htm 
+		Options Indexes FollowSymLinks Includes 
+		</code></pre>
+		</li>
+		<li>Retest the page. SSIs should now work on pages that end with <code>.html</code> and <code>.htm</code></li>
+	</ul>
+	
+	<h3>Exercise 5 - Formatting</h3>
+	<p>Use SSI to add a formatted date to an HTML page matching this pattern: <code><!--#config timefmt="%A, %B %e" --><!--#echo var="DATE_LOCAL" --></code></p>
+	<h4>Formatting</h4>
+	<ul>
+		<li>Showing the raw date isn't always the attractive option</li>
+		<li>Formatting the date to show in a configurable manner is required</li>
+		<li>This is done through the <code>config timefmt</code> command</li>
+	</ul>
+	<p>For a hint, check this page:<br>
+	<a href="http://www.htmlite.com/SSI005.shtml">http://www.htmlite.com/SSI005.shtml</a>
+	<br>Lots of examples on how to <a href="http://www.zytrax.com/tech/web/ssi.htm#time">configure time and date with SSIs</a></p>
+	
+	<h3>Exercise 6a - Dynamic Navigation</h3>
+	<p>Deploy a navigation using SSI. </p>
+	<ul>
+		<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/server_side_includes.zip">Download the exercise source files</a>.</li>
+		<li>Extract the navigation related code from each html file</li>
+		<li>Place the navigation code in one external file</li>
+		<li>Use the server side includes 'include' token to load the navigation on each page. EG:<br><code>&lt;!--#include file="inc/nav.inc" --&gt;</code></li>
+		<li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/server_side_includes_solution_a.zip">Download a sample solution</a></li>
+	</ul>
+	
+	
+	<h3>Exercise 6b - Dynamic Navigation</h3>	
+	<p>Update your code from the previous SSI Navigation exercise.</p>
+	<p>Use the if control structure to enhance your SSI navigation code. Create a unique styled version of the nav option for the page the user is currently viewing.</p>
+	<p><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/server_side_includes_solution_b.zip">Download a sample solution</a></p>
+	
 		
+	<h3>Homework</h3>
+	<a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework07.pdf">download the homework</a>
+	
+	
         <br>
         <h2>Lecture 9 - Templating, SEO</h2>
-        <h3>Exercise 1 - </h3>
-        <h3>Exercise 2 - </h3>
-	<h3>Exercise 3 - </h3>
-	<h3>Homework</h3>
+        <h3>Exercise 1 - SEO Exercise</h3>
+	<p>Examine the pages on your student webspace on <code>bcitcomp.ca</code> and make a list of the additions or alterations that could be applied to improve search engine results. Let your instructor know what your recommendations are.</p>
+	<ul>
+		<li>are you using the <code>meta description</code> attribute?</li>
+		<li>do your pages each have a useful and descriptive title, and does each page have a obvious main heading?</li>
+		<li>does your page contain additional headings that accurately summarize content?</li>
+		<li>do the (non lorum-ipsum) pages have content that is on-topic? is there a decent, reasonable quantity of content on each page? is the content thoughtfully composed? does it contain words and phrases that an interested user might search with?</li>
+		<li>are you using the best filenames? folder names? site structure?</li>
+		<li>are your hyperlinks contextual, including descriptive link text?</li>
+		<li>would any resources be candidates for caching?</li>
+	</ul>
 	
+        <h3>Exercise 2</h3>
+	<p>Everyone will work with a Template using Tumblr as our Content Management System.</p>
+	<p>Please follow these steps:</p>
+	<ul>
+		<li>Go to <a href="http://tumblr.com/">Tumblr</a> and create an account or log in to your existing account</li>
+		<li>If you already have an account, create a new blog by clicking the bulleted list icon at the top of your dashboard and selecting "Create new blog"</li>
+		<li>Choose a basic, pre-created theme (template)</li>
+		<li>Write some detailed content:
+			<ul>
+				<li>Three text posts</li>
+				<li>Three photo posts</li>
+				<li>Three link posts</li>
+				<li>Any order is fine</li>
+				<li>Please include some level of detail, or select a topic (like dogs, or beer) and find some relevant photos and links</li>
+			</ul>
+		
+		</li>
+		<li>Publish the content and see how it looks</li>
+		<li>Examine the template (right click on your dashboard icon and choose 'Open link in new window' or just visit http://yourTumblrSiteName.tumblr.com/)</li>
+			
+	</ul>
+	
+	<h3>Homework</h3>
+	<a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework08.pdf">download the homework</a>
 	
 	<br>
         <h2>Lecture 10 - Methodology</h2>
+	<h3>Exercise</h3>
+	<ul>
+		<li>Mingle with your classmates to see examples of each other's work</li>
+		<li>Interview each other to assess skill sets</li>
+		<li>Be prepared to form a project group (two or three students per group)</li>
+	</ul>
 	<h3>Homework</h3>
-	
+	<a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework09.pdf">download the homework</a>
 	
         </div>
         <!-- Right space -->
