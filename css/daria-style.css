@@ -169,6 +169,26 @@ h1 {
 	display: block;	
 }
 
+
+.controls{
+	margin-bottom: 25px;
+    	margin-right: 10px;	
+}
+
+#go-back{
+	text-decoration: none;
+    	color: #eeeeee;
+    	font-family: Lato, Times, "Times New Roman", serif;
+    	padding: 8px;
+    	margin-right: -5px;
+    	border: 1px solid transparent;
+    	border-radius: 10px;
+}
+
+#go-back a:hover{
+	background: #19919e;
+	transition: background 0.4s;
+}
 /*-------------------------------------------------------------------------------------------*/
 /* SMALL SCREEN/MOBILE */
 
