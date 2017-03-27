@@ -30,7 +30,7 @@
           <br>
           <br>
           <h3>Lecture 2 - HTML5</h3>
-          <h4>HTML5 Exercise 2<h4>
+          <h4>HTML5 Exercise 2</h4>
           
           <p>Thinking about the semantic tags that are available in HTML5, construct a simple page that takes advantage of some of these tags.</p>
           <p>We will use the theme of craft beer. Create the name of your own brewery and find <a href="https://www.google.com/search?site=&amp;tbm=isch&amp;tbm=isch&amp;q=craft+beer">
