@@ -23,14 +23,14 @@
           <h1>Exercises</h1>
       		<h2>Download Exercises for All Lectures</h2>
       		<p><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/transitions_exercise_solution.zip">Download all exercises</a></p>
-      		<h2>Download by Lecture</h2>
+      		<h1>Download by Lecture</h1>
           
           
           
           <br>
           <br>
-          <h3>Lecture 2 - HTML5</h3>
-          <h4>HTML5 Exercise 2</h4>
+          <h2>Lecture 2 - HTML5</h2>
+          <h3>HTML5 Exercise 2</h3>
           
           <p>Thinking about the semantic tags that are available in HTML5, construct a simple page that takes advantage of some of these tags.</p>
           <p>We will use the theme of craft beer. Create the name of your own brewery and find <a href="https://www.google.com/search?site=&amp;tbm=isch&amp;tbm=isch&amp;q=craft+beer">
@@ -79,7 +79,7 @@
           Add several of the new HTML5 inputs to the form. Test the results in every browser you have available. Which features seem to be well supported? Which ones are poorly supported? 
           Take note of how a browser will render some of the more specialized inputs when it doesnt recognize the HTML5.</p>
       		
-          <h4>Homework</h4>
+          <h3>Homework</h3>
           <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework02.pdf">Download the homework</a>
           
           
@@ -87,8 +87,8 @@
           
           <br>
           <br>
-          <h3>Lecture 3 - CSS Techniques</h3>
-          <h4>Exercise 1 - Apply an Alternate Stylesheet<h4>
+          <h2>Lecture 3 - CSS Techniques</h2>
+          <h3>Exercise 1 - Apply an Alternate Stylesheet<h3>
           <ul>
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/alternate_stylesheets.zip">Download the alternate stylesheet starting files</a></li>
             <li>Make a copy of one of the current stylesheets, rename it, and change some of the styles</li>
@@ -97,7 +97,7 @@
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/alternate_stylesheets_solution.zip">Download a sample solution</a><p></p></li> 
           </ul>
           
-          <h4>Exercise 2 - Using @import</h4>
+          <h3>Exercise 2 - Using @import</h3>
           <ul>
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/importing_css.zip">Download the css import exercise starting files</a></li>
             <li>Use the <code>@import</code> feature to simplify the HTML file's CSS references, so that only one <code>&lt;link&gt;</code> tag is required in the HTML <code>&lt;head&gt;</code> section.</li>
@@ -105,7 +105,7 @@
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/importing_css_solution.zip">Download a sample solution</a><p></p></li>
           </ul>
           
-          <h4>Exercise 3 - Advanced Selectors</h4>
+          <h3>Exercise 3 - Advanced Selectors</h3>
           <ul>
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/css_selector_exercise.zip">Download the exercise source files</a></li>
             <li>Make NO changes to the HTML file, other than adding embedded or external CSS. Do NOT add any attributes (neither class nor id) to any of the tags.</li>
@@ -114,7 +114,7 @@
            <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/css_selector_exercise_sample.zip">Download a sample solution</a></li> 
           </ul>
           
-          <h4>Homework</h4>
+          <h3>Homework</h3>
           <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework03.pdf">Download the homework</a>
           
           
@@ -122,8 +122,8 @@
           
           <br>
           <br>
-      		<h3>Lecture 4 - CSS Layouts</h3>
-          <h4>Exercise 1 - Sprites</h4>
+	<h2>Lecture 4 - CSS Layouts</h2>
+          <h3>Exercise 1 - Sprites</h3>
           <ul>
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/sprites_exercise.zip">Download</a> and extract the source files</li>
             <li>examine the source code to see how the example sprite is being used</li>
@@ -133,13 +133,13 @@
           </ul>
           
           
-          <h4>Exercise 2 - Practice CSS Positioning</h4>
+          <h3>Exercise 2 - Practice CSS Positioning</h3>
           <p>Try walking through a few <a href="http://bcitcomp.ca/1950/lectures/four/scenarios.html">positioning scenarios</a></p>
           
-          <h4>Exercise 3 - Build a List-Based navigation</h4>
+          <h3>Exercise 3 - Build a List-Based navigation</h3>
           <p>Try an <a href="http://bcitcomp.ca/1950/lectures/four/list_nav.html">exercise to build a vertical navigation</a> built with an unordered list and styled in CSS.</p>
           
-          <h4>Exercise 4 - Implement a Commonly Used Layout</h4>
+          <h3>Exercise 4 - Implement a Commonly Used Layout</h3>
           <ul>
             <li>Imlement a popular fixed width page layout that matches the basic behavior of <a href="http://bcitcomp.ca/1950/lectures/four/layout_exercise_sample/">
             this example layout</a>. Don't spoil the exercise by copying the code from the example, use it to determine the desired 
@@ -165,15 +165,15 @@
           </ul>
           
           
-          <h4>Homework</h4>
+          <h3>Homework</h3>
           <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework04.pdf">download the homework</a>
           
           
           
           
           <br>
-          <h3>Lecture 5 - </h3>
-          <h4>Exercise 1 - Print Styles Exercise<h4>
+          <h2>Lecture 5 - </h2>
+          <h3>Exercise 1 - Print Styles Exercise<h3>
           <ul>
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/styling_for_print_exercise.zip">Download the exercise starting files</a></li>
             <li>Apply a printer friendly CSS stylesheet using <code>media="print"</code> in the link tag</li>
@@ -190,7 +190,7 @@
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/styling_for_print_solution.zip">Download a sample solution</a></li>
           </ul>
           
-          <h4>Exercise 2 - Media Queries Examples and Exercise</h4>
+          <h3>Exercise 2 - Media Queries Examples and Exercise</h3>
           <ul>
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/media_query_example.zip">Download some media query examples</a>
             and unzip the contents</li>
@@ -206,7 +206,7 @@
           
           
           
-          <h4>Fluid Fonts and Images Examples</h4>
+          <h3>Fluid Fonts and Images Examples</h3>
           <ul>
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/responsive_sizing.zip">Download a responsive font and image example</a> and unzip the contents</li>
             <li>Examine the HTML and CSS source code and test the HTML page in a varying sized web browser</li>
@@ -219,7 +219,7 @@
           </ul>	
           
           
-          <h4>Exercise 3 - Responsive Layout Exercise</h4>
+          <h3>Exercise 3 - Responsive Layout Exercise</h3>
           <ul>
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/responsive_layout_exercise.zip">Download the exercise</a> and unzip the contents </li>
             <li>Examine the code and note how media queries are already being applied at a 800px width breakpoint</li>
@@ -231,7 +231,7 @@
           </ul>
           
           
-          <h4>Homework</h4>
+          <h3>Homework</h3>
           <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework05.pdf">Download the homework</a> 
           
           
@@ -239,8 +239,8 @@
           
           
           <br>
-          <h3>Lecture 6 - </h3>
-          <h4>Exercise 1 - Better Box Model<h4>
+          <h2>Lecture 6 - </h2>
+          <h3>Exercise 1 - Better Box Model<h3>
           	<ul>
               <li>Experiment with the new box model properties using your preferred web browser diagnostic tool (such as Firefox's Firebug)</li>
               <li>The box below is <code>id="better_box_model"</code></li>
@@ -251,7 +251,7 @@
             </div>
           
           <br>
-          <h4>Exercise 2 - CSS Transitions Exercise</h4>
+          <h3>Exercise 2 - CSS Transitions Exercise</h3>
           
           <p><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/transitions_exercise.zip">Download the transitions exercise starting files.</a></p>
 
@@ -260,7 +260,7 @@
           <img src="http://bcitcomp.ca/1950/lectures/six/images/button_yellow.png" id="image_top" alt="yellow button" width="100px" height="100px">	
     	  </div>
       
-        <h3>Challenge A:</h3>
+        <h4>Challenge A:</h4>
         <p>The yellow button image is absolutely positioned so that it overlaps a green button image beneath it.</p>	<ul>
           <li>First add a :hover pseudoclass to the <code>id="image_top"</code> that will set it's <code>opacity</code> to 0;</li>
           <li>Then add the transition states: First apply a transition to the opacity of <code>#image_top</code>. Note how the transtion is applied to both the :hover and non-hover states.</li>
@@ -273,7 +273,7 @@
           <li>demonstrate the finished transition to your instructor</li>
         </ul>
 
-        <h3>Challenge B:</h3>
+        <h4>Challenge B:</h4>
 
         <p>Add transtion code that will alter the width or the height of the form inputs when they are in the 	<code>focus</code> state.</p>
         <ul>
@@ -292,7 +292,7 @@
 	
           
           
-        <h4>Exercise 3 - Animations and Keyframes</h4>
+        <h3>Exercise 3 - Animations and Keyframes</h3>
         <ul>
           <li>Download and examine these <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/animation_keyframes_exercise.zip">example animations</a></li>
           <li>Try adding or changing some of the properties being animated</li>
@@ -302,7 +302,7 @@
           
         
         
-        <h4>Exercise 4 - Multiple Backgrounds</h4>
+        <h3>Exercise 4 - Multiple Backgrounds</h3>
         <p>Experiment with multiple backgrounds, gradients, and hover effects in this CSS3 background demo and exercise.</p>
         <ul>
           <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/multiple_background_exercise.zip">Download the source files</a></li>
@@ -314,7 +314,7 @@
         </ul>
         
         
-        <h4>Homework</h4>
+        <h3>Homework</h3>
         <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework05.pdf">Download the homework</a>
         
         
@@ -324,8 +324,8 @@
           
           
           <br>
-          <h3>Lecture 7 - </h3>
-          <h4>Exercise 1 - <h4>
+          <h2>Lecture 7 - </h2>
+          <h3>Exercise 1 - <h3>
         
         
         
