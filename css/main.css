@@ -57,7 +57,7 @@ footer {
 }
 
 /*previously max-width: 767px*/
-@media (max-width: 894px) {
+@media (max-width: 767px) {
   #navbar {
     position: static;
     width: 100%;
@@ -73,8 +73,8 @@ footer {
         width: 100%;
     }
 }
-/*previously max-width: 768px*/
-@media (min-width: 894px) {
+/*previously min-width: 768px*/
+@media (min-width: 768px) {
   #myNavbar1 ul {
     margin-right: 0;
   }
