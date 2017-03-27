@@ -73,7 +73,7 @@
           sample solution</a>.</p>
           
           
-          <h4>HTML5 Exercise 2<h4>
+          <h4>HTML5 Exercise 2</h4>
           <p>Experiment with new HTML5 form features.</p>
           <p><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/session02_exercise02.zip">Download and unpack the exercise files</a>  (.zip).  
           Add several of the new HTML5 inputs to the form. Test the results in every browser you have available. Which features seem to be well supported? Which ones are poorly supported? 
