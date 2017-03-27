@@ -446,7 +446,8 @@
 	</ul>
 	
 	<h3>Exercise 5 - Formatting</h3>
-	<p>Use SSI to add a formatted date to an HTML page matching this pattern: <code><!--#config timefmt="%A, %B %e" --><!--#echo var="DATE_LOCAL" --></code></p>
+	<p>Use SSI to add a formatted date to an HTML page matching this pattern: 
+		<pre><code> &lt;!--#config timefmt="%A, %B %e" --&gt;&lt;!--#echo var="DATE_LOCAL" --&gt;</code></pre></p>
 	<h4>Formatting</h4>
 	<ul>
 		<li>Showing the raw date isn't always the attractive option</li>
