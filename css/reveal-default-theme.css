@@ -19,6 +19,26 @@ header, footer, nav, .scroll-to-top, .nav-tabs, #comments, .remove {
   bottom: 3px;
 }
 
+
+
+
+/*Styles the "Go back to Lecture" button*/
+#go-back{
+	text-decoration: none;
+    	color: #eeeeee;
+    	font-family: Lato, Times, "Times New Roman", sans-serif!important;
+    	padding: 8px!important;
+    	margin-right: -5px!important;
+    	border: 1px solid transparent!important;
+    	border-radius: 10px!important;
+}
+
+a#go-back:hover{
+	background: #19919e!important;
+	transition: background 0.4s!important;
+}
+
+
 body {
   background: #1c1e20;
   background: -moz-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
@@ -105,22 +125,6 @@ body {
   background: #0d99a5;
 }
 
-
-/*Styles the "Go back to Lecture" button*/
-#go-back{
-	text-decoration: none;
-    	color: #eeeeee;
-    	font-family: Lato, Times, "Times New Roman", sans-serif!important;
-    	padding: 8px!important;
-    	margin-right: -5px!important;
-    	border: 1px solid transparent!important;
-    	border-radius: 10px!important;
-}
-
-#go-back a:hover{
-	background: #19919e!important;
-	transition: background 0.4s!important;
-}
 
 
 /*********************************************
