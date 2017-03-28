@@ -24,9 +24,23 @@
       	<h3>Download Exercises for All Lectures</h3>
       	<p><a href="http://bcitcomp.ca/students/ddimchuk/homepage/project/files/exercises/bcitcomp1950.zip">Download all exercises</a></p>
       	<h1>Download by Lecture</h1>
+     	
+	
+	<ul id="exercises-nav">
+	  <li><a href="#lect2">Lecture 2</a></li>
+	  <li><a href="#lect3">Lecture 3</a></li>
+	  <li><a href="#lect4">Lecture 4</a></li>
+	  <li><a href="#lect5">Lecture 5</a></li>
+	  <li><a href="#lect6">Lecture 6</a></li>
+	  <li><a href="#lect7">Lecture 7</a></li>
+	  <li><a href="#lect8">Lecture 8</a></li>
+	  <li><a href="#lect9">Lecture 9</a></li>
+	  <li><a href="#lect10">Lecture 10</a></li>
+	</ul>
+		
+		
           
-          
-          <h2>Lecture 2 - HTML5</h2>
+          <h2 id="lect2">Lecture 2 - HTML5</h2>
           <h3>HTML5 Exercise 1</h3>
           
           <p>Thinking about the semantic tags that are available in HTML5, construct a simple page that takes advantage of some of these tags.</p>
@@ -84,7 +98,7 @@
           
           <br>
           <br>
-          <h2>Lecture 3 - CSS Techniques</h2>
+          <h2 id="lect3">Lecture 3 - CSS Techniques</h2>
           <h3>Exercise 1 - Apply an Alternate Stylesheet</h3>
           <ul>
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/alternate_stylesheets.zip">Download the alternate stylesheet starting files</a></li>
@@ -119,7 +133,7 @@
           
           <br>
           <br>
-	<h2>Lecture 4 - CSS Layouts</h2>
+	<h2 id="lect4">Lecture 4 - CSS Layouts</h2>
           <h3>Exercise 1 - Sprites</h3>
           <ul>
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/sprites_exercise.zip">Download</a> and extract the source files</li>
@@ -169,7 +183,7 @@
           
           
           <br>
-          <h2>Lecture 5 - Responsive CSS</h2>
+          <h2 id="lect5">Lecture 5 - Responsive CSS</h2>
           <h3>Exercise 1 - Print Styles Exercise</h3>
           <ul>
             <li><a href="http://bcitcomp.ca/_shared_resources_1950/downloads/styling_for_print_exercise.zip">Download the exercise starting files</a></li>
@@ -236,7 +250,7 @@
           
           
           <br>
-          <h2>Lecture 6 - CSS3</h2>
+          <h2 id="lect6">Lecture 6 - CSS3</h2>
           <h3>Exercise 1 - Better Box Model</h3>
           	<ul>
               <li>Experiment with the new box model properties using your preferred web browser diagnostic tool (such as Firefox's Firebug)</li>
@@ -321,7 +335,7 @@
           
           
         <br>
-        <h2>Lecture 7 - JavaScript Frameworks</h2>
+        <h2 id="lect7">Lecture 7 - JavaScript Frameworks</h2>
         <h3>Exercise 1 - Run a Simple JQuery Script</h3>
 		<ol>
 		  <li>Include the jQuery library codebase using the <code>&lt;script src=""&gt;&lt;/script&gt;</code> tag in the <code>&lt;head&gt;</code> section of an HTML page. Load either a local copy obtained from the <a href="http://docs.jquery.com/Downloading_jQuery" title="Download from jQuery">jQuery downloads page</a>, or link to a copy on a Content Delivery Network (CDN).</li>
@@ -382,9 +396,11 @@
 	<h3>Homework</h3>
         <a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework06.pdf">Download the homework</a>      
 	
+		
+		
 	
         <br>
-        <h2>Lecture 8 - Dynamic Content</h2>
+        <h2 id="lect8">Lecture 8 - Dynamic Content</h2>
         <h3>Exercise 1 - Install and Run and HTTP Server</h3>
 	<p>Install a web server environment on your client machine.</p>
 	<ol>
@@ -479,8 +495,10 @@
 	<a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework07.pdf">download the homework</a>
 	
 	
+	      
+	      
         <br>
-        <h2>Lecture 9 - Templating, SEO</h2>
+        <h2 id="lect9">Lecture 9 - Templating, SEO</h2>
         <h3>Exercise 1 - SEO Exercise</h3>
 	<p>Examine the pages on your student webspace on <code>bcitcomp.ca</code> and make a list of the additions or alterations that could be applied to improve search engine results. Let your instructor know what your recommendations are.</p>
 	<ul>
@@ -519,7 +537,7 @@
 	<a href="http://bcitcomp.ca/_shared_resources_1950/downloads/comp1950_homework08.pdf">download the homework</a>
 	
 	<br>
-        <h2>Lecture 10 - Methodology</h2>
+        <h2 id="lect10">Lecture 10 - Methodology</h2>
 	<h3>Exercise</h3>
 	<ul>
 		<li>Mingle with your classmates to see examples of each other's work</li>
