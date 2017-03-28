@@ -22,7 +22,7 @@
         <div class="col-md-6">
           <h1>Exercises</h1>
       	<h3>Download Exercises for All Lectures</h3>
-      	<p><a href="http://bcitcomp.ca/students/ddimchuk/homepage/project/files/exercises/bcitcomp1950.zip">Download all exercises</a></p>
+      	<p><a id="download-all-exercises-link" href="http://bcitcomp.ca/students/ddimchuk/homepage/project/files/exercises/bcitcomp1950.zip">Download all exercises</a></p>
       	<h1>Download by Lecture</h1>
      	
 	
