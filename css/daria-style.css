@@ -206,6 +206,18 @@ h1 {
 	}
 }
 
+
+@media (max-width: 867px){
+	.dropdown-menu li a{
+		color: #989797!important;
+	}
+
+	.dropdown-menu li a:hover {
+		color: white!important;
+	    transition: color 0.5s !important;
+	}
+}
+
 /*-------------------------------------------------------------------------------------------*/
 /* LARGER SCREEN*/
 
@@ -219,13 +231,16 @@ h1 {
 		margin: 3% 8%;
 		height: auto;
 	}
+	
 	.dropdown-menu li a {
-    color: #9d9d9d !important;
-  }
+       		color: #616060!important;
+  	}
+	
 	.dropdown-menu li a:hover {
-		color: white !important;
-	  transition: color 0.5s !important;
+		color: black!important;
+	    	transition: color 0.5s !important;
 	}
+
 
 }
 
