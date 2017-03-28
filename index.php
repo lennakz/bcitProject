@@ -114,7 +114,7 @@
 				<p>Alternative link.</p>
 				<br>
 
-				<a href="http://bcitcomp.ca/students/mkotok/bcitProject/meta.html">http://bcitcomp.ca/students/mkotok/bcitProject/meta.html</a>
+				<a href="http://bcitcomp.ca/students/mkotok/bcitProject/about.php">http://bcitcomp.ca/students/mkotok/bcitProject/about.php</a>
 
 				<br><br><p>As a sample, we've completed 5 pages: About, Resources, Contact, and Lectures 1 and 3.
 				<br><br>Additionally, we've included a print style and a projector-view option.</p>
