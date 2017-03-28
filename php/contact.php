@@ -6,7 +6,7 @@
 		$email = $_POST['email'];
 		$question = $_POST['question'];
 		$from = 'Website Client';
-		$to = 'lennakz@gmail.com';
+		$to = 'mykola.kotok@gmail.com';
 		$subject = 'Message from Website';
 
 		$body = "From: $name\n\n Student Number: $student_number\n\n E-Mail: $email\n\n Question:\n $question";
