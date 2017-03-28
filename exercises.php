@@ -23,7 +23,10 @@
           <h1>Exercises</h1>
       	<h3>Download Exercises for All Lectures</h3>
       	<p><a id="download-all-exercises-link" href="http://bcitcomp.ca/students/ddimchuk/homepage/project/files/exercises/bcitcomp1950.zip">Download all exercises</a></p>
-      	<h1>Download by Lecture</h1>
+      	
+	<div style="padding: 5px;"></div>	
+	
+	<h1>Download by Lecture</h1>
      	
 	
 	<ul id="exercises-nav">
