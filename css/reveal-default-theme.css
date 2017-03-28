@@ -105,6 +105,24 @@ body {
   background: #0d99a5;
 }
 
+
+/*Styles the "Go back to Lecture" button*/
+#go-back{
+	text-decoration: none;
+    	color: #eeeeee;
+    	font-family: Lato, Times, "Times New Roman", sans-serif;
+    	padding: 8px;
+    	margin-right: -5px;
+    	border: 1px solid transparent;
+    	border-radius: 10px;
+}
+
+#go-back a:hover{
+	background: #19919e;
+	transition: background 0.4s;
+}
+
+
 /*********************************************
  * IMAGES
  *********************************************/
@@ -164,6 +182,13 @@ body {
 .reveal .controls div.navigate-down.enabled:hover {
   border-top-color: #71e9f4;
 }
+
+/*Centers the controls*/
+.controls{
+	    margin-bottom: 25px;
+    	margin-right: 10px;	
+}
+
 
 /*********************************************
  * PROGRESS BAR
