@@ -66,6 +66,9 @@ footer {
   main {
     padding-top: 49px;
   }
+  .dropdown-menu li a {
+    color: #9d9d9d !important;
+  }
 }
 
 @media (max-width: 576px) {

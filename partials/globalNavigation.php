@@ -30,8 +30,10 @@
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <<li><button id="print-button"  onclick="triggerPrint()"><a id="print-link" href="#"><i class="fa fa-print"></i> Print</a></button></li>
-          <li><a id="projector" href="#"><i class="fa fa-square-o" aria-hidden="true"></i> Projector</a></li>
+          <li><button id="print-button"  onclick="triggerPrint()"><a id="print-link" href="#"><i class="fa fa-print"></i> Print</a></button></li>
+          <?php if (basename($_SERVER['PHP_SELF']) == 'lectures.php')
+            echo '<li><a id="projector" href="#"><i class="fa fa-square-o" aria-hidden="true"></i> Projector</a></li>'
+          ?>
         </ul>
       </div>
     </div>
