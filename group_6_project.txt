@@ -1,2 +1,9 @@
+Group members:
+- Daria Dimchuk
+- Mykola Kotok
+- Ken Li
+
 Main URL: http://bcitcomp.ca/students/mkotok/bcitProject/meta.html
 Alternative URL: https://bcit-project.herokuapp.com/
+
+We used alternative link to develop the website, because it hosts on heroku.com, connected to github and auto deploy any changes from github. So it is same website, but hosted on different servers.
