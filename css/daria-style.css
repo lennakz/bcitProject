@@ -169,26 +169,6 @@ h1 {
 	display: block;	
 }
 
-
-.controls{
-	margin-bottom: 25px!important;
-    	margin-right: 10px!important;	
-}
-
-#go-back{
-	text-decoration: none!important;
-    	color: #eeeeee!important;
-    	font-family: Lato, Times, "Times New Roman", sans-serif!important;
-    	padding: 8px!important;
-    	margin-right: -5px!important;
-    	border: 1px solid transparent!important;
-    	border-radius: 10px!important;
-}
-
-#go-back a:hover{
-	background: #19919e!important;
-	transition: background 0.4s;
-}
 /*-------------------------------------------------------------------------------------------*/
 /* SMALL SCREEN/MOBILE */
 
