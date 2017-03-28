@@ -1,0 +1,2 @@
+Main URL: http://bcitcomp.ca/students/mkotok/bcitProject/meta.html
+Alternative URL: https://bcit-project.herokuapp.com/

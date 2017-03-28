@@ -109,9 +109,17 @@
 				<br>
 
 				<a href="https://bcit-project.herokuapp.com/about.php">https://bcit-project.herokuapp.com/about.php</a>
+				<br><br>
+
+				<p>Alternative link.</p>
+				<br>
+
+				<a href="http://bcitcomp.ca/students/mkotok/bcitProject/meta.html">http://bcitcomp.ca/students/mkotok/bcitProject/meta.html</a>
 
 				<br><br><p>As a sample, we've completed 5 pages: About, Resources, Contact, and Lectures 1 and 3.
 				<br><br>Additionally, we've included a print style and a projector-view option.</p>
+				<br><br><br>
+				<p>To see the developing process check our <a href="https://github.com/lennakz/bcitProject" target="_blank">GitHub</a> account.</p>
 			</div>
 		</div>
 
@@ -165,6 +173,8 @@
 					<li>Php folder contains data.php, which includes array with lecture number and lecture name, contact.php, which is action for the form from contact page. If you change email in $to variable to your email you will recieve emails from this form.</li>
 					<br>
 					<li>To apply jQuery plugin Reveal.js we have to use jQuery and delete some tags after you click on Projector button.</li>
+					<br>
+					<li>We used GitHub and Heroku for developing and hosting website during developing.</li>
 
 				</ul>
 
